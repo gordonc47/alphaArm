@@ -1,0 +1,360 @@
+[0.126s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.126s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7cae39f41bd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cae3a041c60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cae3a041c60>>)
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.170s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gordonc/alpha_test'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_bringup) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_bringup) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_bringup) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_bringup) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_bringup) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_bringup) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_bringup) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_bringup) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/alpha/alpha_bringup' with type 'ros.ament_cmake' and name 'alpha_bringup'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_description) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_description) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_description) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_description) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_description) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_description) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_description) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_description) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_description) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/alpha/alpha_description' with type 'ros.ament_cmake' and name 'alpha_description'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_driver) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_driver) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_driver) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_driver) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_driver) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_driver) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_driver) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_driver) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/alpha/alpha_driver' with type 'ros.ament_cmake' and name 'alpha_driver'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_hardware) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_hardware) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_hardware) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_hardware) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_hardware) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_hardware) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_hardware) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/alpha/alpha_hardware) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/alpha/alpha_hardware' with type 'ros.ament_cmake' and name 'alpha_hardware'
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.233s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/gordonc/alpha_test/install
+[0.235s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 35 installed packages in /home/gordonc/colcon_ws/install
+[0.237s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 411 installed packages in /opt/ros/humble
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'alpha_description' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'alpha_description' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'alpha_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'alpha_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'alpha_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'alpha_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'alpha_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'alpha_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'alpha_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'alpha_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gordonc/alpha_test/build/alpha_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gordonc/alpha_test/install/alpha_description', 'merge_install': False, 'path': '/home/gordonc/alpha_test/src/alpha/alpha_description', 'symlink_install': False, 'test_result_base': None}
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'alpha_driver' build argument 'cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'alpha_driver' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'alpha_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'alpha_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'alpha_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'alpha_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'alpha_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'alpha_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'alpha_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'alpha_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gordonc/alpha_test/build/alpha_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gordonc/alpha_test/install/alpha_driver', 'merge_install': False, 'path': '/home/gordonc/alpha_test/src/alpha/alpha_driver', 'symlink_install': False, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'alpha_hardware' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'alpha_hardware' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'alpha_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'alpha_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'alpha_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'alpha_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'alpha_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'alpha_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'alpha_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'alpha_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gordonc/alpha_test/build/alpha_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gordonc/alpha_test/install/alpha_hardware', 'merge_install': False, 'path': '/home/gordonc/alpha_test/src/alpha/alpha_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'alpha_bringup' build argument 'cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'alpha_bringup' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'alpha_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'alpha_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'alpha_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'alpha_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'alpha_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'alpha_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'alpha_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'alpha_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gordonc/alpha_test/build/alpha_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gordonc/alpha_test/install/alpha_bringup', 'merge_install': False, 'path': '/home/gordonc/alpha_test/src/alpha/alpha_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.307s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.308s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.308s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gordonc/alpha_test/src/alpha/alpha_driver' with build type 'ament_cmake'
+[0.309s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gordonc/alpha_test/src/alpha/alpha_driver'
+[0.312s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.321s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gordonc/alpha_test/src/alpha/alpha_description' with build type 'ament_cmake'
+[0.321s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gordonc/alpha_test/src/alpha/alpha_description'
+[0.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gordonc/alpha_test/build/alpha_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_driver -- -j8 -l8
+[0.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gordonc/alpha_test/build/alpha_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_description -- -j8 -l8
+[0.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gordonc/alpha_test/build/alpha_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_description -- -j8 -l8
+[0.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gordonc/alpha_test/build/alpha_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/alpha_description
+[0.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alpha_description)
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_description' for CMake module files
+[0.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gordonc/alpha_test/build/alpha_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/alpha_description
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_description' for CMake config files
+[0.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('alpha_description', 'cmake_prefix_path')
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_description/share/alpha_description/hook/cmake_prefix_path.ps1'
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gordonc/alpha_test/install/alpha_description/share/alpha_description/hook/cmake_prefix_path.dsv'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_description/share/alpha_description/hook/cmake_prefix_path.sh'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_description/bin'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_description/lib/pkgconfig/alpha_description.pc'
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_description/lib/python3.10/site-packages'
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_description/bin'
+[0.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_description/share/alpha_description/package.ps1'
+[0.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gordonc/alpha_test/install/alpha_description/share/alpha_description/package.dsv'
+[0.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_description/share/alpha_description/package.sh'
+[0.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_description/share/alpha_description/package.bash'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_description/share/alpha_description/package.zsh'
+[0.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gordonc/alpha_test/install/alpha_description/share/colcon-core/packages/alpha_description)
+[0.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gordonc/alpha_test/build/alpha_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_driver -- -j8 -l8
+[0.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alpha_description)
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_description' for CMake module files
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_description' for CMake config files
+[0.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('alpha_description', 'cmake_prefix_path')
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_description/share/alpha_description/hook/cmake_prefix_path.ps1'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gordonc/alpha_test/install/alpha_description/share/alpha_description/hook/cmake_prefix_path.dsv'
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_description/share/alpha_description/hook/cmake_prefix_path.sh'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_description/bin'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_description/lib/pkgconfig/alpha_description.pc'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_description/lib/python3.10/site-packages'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_description/bin'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_description/share/alpha_description/package.ps1'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gordonc/alpha_test/install/alpha_description/share/alpha_description/package.dsv'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_description/share/alpha_description/package.sh'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_description/share/alpha_description/package.bash'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_description/share/alpha_description/package.zsh'
+[0.634s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gordonc/alpha_test/install/alpha_description/share/colcon-core/packages/alpha_description)
+[0.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gordonc/alpha_test/build/alpha_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/alpha_driver
+[0.728s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alpha_driver)
+[0.729s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_driver' for CMake module files
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_driver' for CMake config files
+[0.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gordonc/alpha_test/build/alpha_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/alpha_driver
+[0.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('alpha_driver', 'cmake_prefix_path')
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/hook/cmake_prefix_path.ps1'
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/hook/cmake_prefix_path.dsv'
+[0.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/hook/cmake_prefix_path.sh'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_driver/lib'
+[0.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('alpha_driver', 'ld_library_path_lib')
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/hook/ld_library_path_lib.ps1'
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/hook/ld_library_path_lib.dsv'
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/hook/ld_library_path_lib.sh'
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_driver/bin'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_driver/lib/pkgconfig/alpha_driver.pc'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_driver/lib/python3.10/site-packages'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_driver/bin'
+[0.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/package.ps1'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/package.dsv'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/package.sh'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/package.bash'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/package.zsh'
+[0.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gordonc/alpha_test/install/alpha_driver/share/colcon-core/packages/alpha_driver)
+[0.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alpha_driver)
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_driver' for CMake module files
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_driver' for CMake config files
+[0.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('alpha_driver', 'cmake_prefix_path')
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/hook/cmake_prefix_path.ps1'
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/hook/cmake_prefix_path.dsv'
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/hook/cmake_prefix_path.sh'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_driver/lib'
+[0.868s] Level 1:colcon.colcon_core.shell:create_environment_hook('alpha_driver', 'ld_library_path_lib')
+[0.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/hook/ld_library_path_lib.ps1'
+[0.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/hook/ld_library_path_lib.dsv'
+[0.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/hook/ld_library_path_lib.sh'
+[0.870s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_driver/bin'
+[0.870s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_driver/lib/pkgconfig/alpha_driver.pc'
+[0.871s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_driver/lib/python3.10/site-packages'
+[0.871s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_driver/bin'
+[0.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/package.ps1'
+[0.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/package.dsv'
+[0.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/package.sh'
+[0.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/package.bash'
+[0.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/package.zsh'
+[0.875s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gordonc/alpha_test/install/alpha_driver/share/colcon-core/packages/alpha_driver)
+[0.876s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gordonc/alpha_test/src/alpha/alpha_hardware' with build type 'ament_cmake'
+[0.876s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gordonc/alpha_test/src/alpha/alpha_hardware'
+[0.877s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.877s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gordonc/alpha_test/build/alpha_hardware': CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/gordonc/alpha_test/install/alpha_driver/lib:/home/gordonc/alpha_test/install/alpha_hardware/lib:/home/gordonc/colcon_ws/install/ros_ign_interfaces/lib:/home/gordonc/colcon_ws/install/ros_gz_sim/lib:/home/gordonc/colcon_ws/install/ros_gz_bridge/lib:/home/gordonc/colcon_ws/install/ros_gz_interfaces/lib:/home/gordonc/colcon_ws/install/orca_nav2/lib:/home/gordonc/colcon_ws/install/orca_shared/lib:/home/gordonc/colcon_ws/install/orca_msgs/lib:/home/gordonc/colcon_ws/install/orb_slam2_ros/lib:/home/gordonc/colcon_ws/install/blue_dynamics/lib:/home/gordonc/colcon_ws/install/alpha_hardware/lib:/home/gordonc/colcon_ws/install/alpha_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_hardware -- -j8 -l8
+[1.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gordonc/alpha_test/build/alpha_hardware' returned '0': CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/gordonc/alpha_test/install/alpha_driver/lib:/home/gordonc/alpha_test/install/alpha_hardware/lib:/home/gordonc/colcon_ws/install/ros_ign_interfaces/lib:/home/gordonc/colcon_ws/install/ros_gz_sim/lib:/home/gordonc/colcon_ws/install/ros_gz_bridge/lib:/home/gordonc/colcon_ws/install/ros_gz_interfaces/lib:/home/gordonc/colcon_ws/install/orca_nav2/lib:/home/gordonc/colcon_ws/install/orca_shared/lib:/home/gordonc/colcon_ws/install/orca_msgs/lib:/home/gordonc/colcon_ws/install/orb_slam2_ros/lib:/home/gordonc/colcon_ws/install/blue_dynamics/lib:/home/gordonc/colcon_ws/install/alpha_hardware/lib:/home/gordonc/colcon_ws/install/alpha_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_hardware -- -j8 -l8
+[1.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gordonc/alpha_test/build/alpha_hardware': CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/gordonc/alpha_test/install/alpha_driver/lib:/home/gordonc/alpha_test/install/alpha_hardware/lib:/home/gordonc/colcon_ws/install/ros_ign_interfaces/lib:/home/gordonc/colcon_ws/install/ros_gz_sim/lib:/home/gordonc/colcon_ws/install/ros_gz_bridge/lib:/home/gordonc/colcon_ws/install/ros_gz_interfaces/lib:/home/gordonc/colcon_ws/install/orca_nav2/lib:/home/gordonc/colcon_ws/install/orca_shared/lib:/home/gordonc/colcon_ws/install/orca_msgs/lib:/home/gordonc/colcon_ws/install/orb_slam2_ros/lib:/home/gordonc/colcon_ws/install/blue_dynamics/lib:/home/gordonc/colcon_ws/install/alpha_hardware/lib:/home/gordonc/colcon_ws/install/alpha_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/gordonc/alpha_test/build/alpha_hardware
+[1.105s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alpha_hardware)
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_hardware' for CMake module files
+[1.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gordonc/alpha_test/build/alpha_hardware' returned '0': CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/gordonc/alpha_test/install/alpha_driver/lib:/home/gordonc/alpha_test/install/alpha_hardware/lib:/home/gordonc/colcon_ws/install/ros_ign_interfaces/lib:/home/gordonc/colcon_ws/install/ros_gz_sim/lib:/home/gordonc/colcon_ws/install/ros_gz_bridge/lib:/home/gordonc/colcon_ws/install/ros_gz_interfaces/lib:/home/gordonc/colcon_ws/install/orca_nav2/lib:/home/gordonc/colcon_ws/install/orca_shared/lib:/home/gordonc/colcon_ws/install/orca_msgs/lib:/home/gordonc/colcon_ws/install/orb_slam2_ros/lib:/home/gordonc/colcon_ws/install/blue_dynamics/lib:/home/gordonc/colcon_ws/install/alpha_hardware/lib:/home/gordonc/colcon_ws/install/alpha_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/gordonc/alpha_test/build/alpha_hardware
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_hardware' for CMake config files
+[1.108s] Level 1:colcon.colcon_core.shell:create_environment_hook('alpha_hardware', 'cmake_prefix_path')
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/hook/cmake_prefix_path.ps1'
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/hook/cmake_prefix_path.dsv'
+[1.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/hook/cmake_prefix_path.sh'
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_hardware/lib'
+[1.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('alpha_hardware', 'ld_library_path_lib')
+[1.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/hook/ld_library_path_lib.ps1'
+[1.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/hook/ld_library_path_lib.dsv'
+[1.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/hook/ld_library_path_lib.sh'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_hardware/bin'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_hardware/lib/pkgconfig/alpha_hardware.pc'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_hardware/lib/python3.10/site-packages'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_hardware/bin'
+[1.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/package.ps1'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/package.dsv'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/package.sh'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/package.bash'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/package.zsh'
+[1.116s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gordonc/alpha_test/install/alpha_hardware/share/colcon-core/packages/alpha_hardware)
+[1.169s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alpha_hardware)
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_hardware' for CMake module files
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_hardware' for CMake config files
+[1.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('alpha_hardware', 'cmake_prefix_path')
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/hook/cmake_prefix_path.ps1'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/hook/cmake_prefix_path.dsv'
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/hook/cmake_prefix_path.sh'
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_hardware/lib'
+[1.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('alpha_hardware', 'ld_library_path_lib')
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/hook/ld_library_path_lib.ps1'
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/hook/ld_library_path_lib.dsv'
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/hook/ld_library_path_lib.sh'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_hardware/bin'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_hardware/lib/pkgconfig/alpha_hardware.pc'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_hardware/lib/python3.10/site-packages'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_hardware/bin'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/package.ps1'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/package.dsv'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/package.sh'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/package.bash'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_hardware/share/alpha_hardware/package.zsh'
+[1.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gordonc/alpha_test/install/alpha_hardware/share/colcon-core/packages/alpha_hardware)
+[1.180s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gordonc/alpha_test/src/alpha/alpha_bringup' with build type 'ament_cmake'
+[1.180s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gordonc/alpha_test/src/alpha/alpha_bringup'
+[1.180s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.180s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gordonc/alpha_test/build/alpha_bringup': CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_bringup -- -j8 -l8
+[1.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gordonc/alpha_test/build/alpha_bringup' returned '0': CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_bringup -- -j8 -l8
+[1.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gordonc/alpha_test/build/alpha_bringup': CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/alpha_bringup
+[1.347s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alpha_bringup)
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_bringup' for CMake module files
+[1.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gordonc/alpha_test/build/alpha_bringup' returned '0': CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/alpha_bringup
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_bringup' for CMake config files
+[1.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('alpha_bringup', 'cmake_prefix_path')
+[1.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/hook/cmake_prefix_path.ps1'
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/hook/cmake_prefix_path.dsv'
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/hook/cmake_prefix_path.sh'
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_bringup/bin'
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_bringup/lib/pkgconfig/alpha_bringup.pc'
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_bringup/lib/python3.10/site-packages'
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_bringup/bin'
+[1.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/package.ps1'
+[1.354s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/package.dsv'
+[1.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/package.sh'
+[1.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/package.bash'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/package.zsh'
+[1.357s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gordonc/alpha_test/install/alpha_bringup/share/colcon-core/packages/alpha_bringup)
+[1.400s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alpha_bringup)
+[1.401s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_bringup' for CMake module files
+[1.402s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_bringup' for CMake config files
+[1.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('alpha_bringup', 'cmake_prefix_path')
+[1.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/hook/cmake_prefix_path.ps1'
+[1.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/hook/cmake_prefix_path.dsv'
+[1.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/hook/cmake_prefix_path.sh'
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_bringup/bin'
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_bringup/lib/pkgconfig/alpha_bringup.pc'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_bringup/lib/python3.10/site-packages'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/gordonc/alpha_test/install/alpha_bringup/bin'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/package.ps1'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/package.dsv'
+[1.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/package.sh'
+[1.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/package.bash'
+[1.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/package.zsh'
+[1.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gordonc/alpha_test/install/alpha_bringup/share/colcon-core/packages/alpha_bringup)
+[1.410s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.410s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.410s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.411s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.431s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.431s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.431s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.446s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.447s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gordonc/alpha_test/install/local_setup.ps1'
+[1.448s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gordonc/alpha_test/install/_local_setup_util_ps1.py'
+[1.451s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gordonc/alpha_test/install/setup.ps1'
+[1.456s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gordonc/alpha_test/install/local_setup.sh'
+[1.457s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gordonc/alpha_test/install/_local_setup_util_sh.py'
+[1.457s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gordonc/alpha_test/install/setup.sh'
+[1.462s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gordonc/alpha_test/install/local_setup.bash'
+[1.463s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gordonc/alpha_test/install/setup.bash'
+[1.468s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gordonc/alpha_test/install/local_setup.zsh'
+[1.468s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gordonc/alpha_test/install/setup.zsh'

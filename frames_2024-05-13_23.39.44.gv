@@ -1,0 +1,17 @@
+digraph G {
+"ee_base_link" -> "push_rod"[label=" Broadcaster: default_authority\nAverage rate: 18.947\nBuffer length: 5.067\nMost recent transform: 1715607584.447566\nOldest transform: 1715607579.380876\n"];
+"m1_link" -> "ee_base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"m2_1_2_link" -> "m1_link"[label=" Broadcaster: default_authority\nAverage rate: 18.947\nBuffer length: 5.067\nMost recent transform: 1715607584.447566\nOldest transform: 1715607579.380876\n"];
+"m2_joint_link" -> "m2_1_2_link"[label=" Broadcaster: default_authority\nAverage rate: 18.947\nBuffer length: 5.067\nMost recent transform: 1715607584.447566\nOldest transform: 1715607579.380876\n"];
+"m2_1_1_link" -> "m2_joint_link"[label=" Broadcaster: default_authority\nAverage rate: 18.947\nBuffer length: 5.067\nMost recent transform: 1715607584.447566\nOldest transform: 1715607579.380876\n"];
+"m3_inline_link" -> "m2_1_1_link"[label=" Broadcaster: default_authority\nAverage rate: 18.947\nBuffer length: 5.067\nMost recent transform: 1715607584.447566\nOldest transform: 1715607579.380876\n"];
+"base_link" -> "m3_inline_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"standard_jaws_base_link" -> "standard_jaws_rs1_130_link"[label=" Broadcaster: default_authority\nAverage rate: 18.947\nBuffer length: 5.067\nMost recent transform: 1715607584.447566\nOldest transform: 1715607579.380876\n"];
+"ee_base_link" -> "standard_jaws_base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"standard_jaws_base_link" -> "standard_jaws_rs1_139_link"[label=" Broadcaster: default_authority\nAverage rate: 18.947\nBuffer length: 5.067\nMost recent transform: 1715607584.447566\nOldest transform: 1715607579.380876\n"];
+"world" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1715607584.4797952"[ shape=plaintext ] ;
+}->"world";
+}

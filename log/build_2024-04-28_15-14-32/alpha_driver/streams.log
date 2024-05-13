@@ -1,0 +1,113 @@
+[0.024s] Invoking command in '/home/gordonc/alpha_test/build/alpha_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake /home/gordonc/alpha_test/src/alpha/alpha_driver -DCMAKE_INSTALL_PREFIX=/home/gordonc/alpha_test/install/alpha_driver
+[0.207s] -- The C compiler identification is GNU 11.4.0
+[0.358s] -- The CXX compiler identification is GNU 11.4.0
+[0.375s] -- Detecting C compiler ABI info
+[0.474s] -- Detecting C compiler ABI info - done
+[0.485s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.486s] -- Detecting C compile features
+[0.486s] -- Detecting C compile features - done
+[0.493s] -- Detecting CXX compiler ABI info
+[0.605s] -- Detecting CXX compiler ABI info - done
+[0.616s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.617s] -- Detecting CXX compile features
+[0.617s] -- Detecting CXX compile features - done
+[0.629s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.150s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.599s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.620s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.649s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.969s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.981s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.188s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.239s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.316s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.348s] -- Looking for pthread.h
+[2.494s] -- Looking for pthread.h - found
+[2.495s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.643s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.645s] -- Found Threads: TRUE  
+[2.900s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.908s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.915s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.063s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.074s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.082s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.082s] -- Configured cppcheck include dirs: /home/gordonc/alpha_test/src/alpha/alpha_driver/include
+[3.083s] -- Configured cppcheck exclude dirs and/or files: 
+[3.085s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.085s] -- Configured cpplint exclude dirs and/or files: 
+[3.087s] -- Added test 'lint_cmake' to check CMake code style
+[3.089s] -- Added test 'xmllint' to check XML markup files
+[3.093s] -- Configuring done
+[3.249s] -- Generating done
+[3.252s] -- Build files have been written to: /home/gordonc/alpha_test/build/alpha_driver
+[3.267s] Invoked command in '/home/gordonc/alpha_test/build/alpha_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake /home/gordonc/alpha_test/src/alpha/alpha_driver -DCMAKE_INSTALL_PREFIX=/home/gordonc/alpha_test/install/alpha_driver
+[3.269s] Invoking command in '/home/gordonc/alpha_test/build/alpha_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_driver -- -j8 -l8
+[3.364s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.365s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.366s] [ 14%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.369s] [ 19%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.374s] [ 23%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.376s] [ 33%] [32mBuilding CXX object CMakeFiles/alpha_driver.dir/src/crc.cpp.o[0m
+[3.377s] [ 33%] [32mBuilding CXX object CMakeFiles/alpha_driver.dir/src/cobs.cpp.o[0m
+[3.378s] [ 38%] [32mBuilding CXX object CMakeFiles/alpha_driver.dir/src/packet.cpp.o[0m
+[3.774s] [ 42%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.872s] [ 42%] Built target gtest_main
+[3.885s] [ 47%] [32mBuilding CXX object CMakeFiles/alpha_driver.dir/src/serial_client.cpp.o[0m
+[3.898s] [ 52%] [32mBuilding CXX object CMakeFiles/alpha_driver.dir/src/driver.cpp.o[0m
+[3.953s] [ 57%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.959s] [ 61%] [32m[1mLinking CXX static library libgmock.a[0m
+[3.960s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.041s] [ 66%] Built target gmock_main
+[4.131s] [ 66%] Built target gtest
+[4.153s] [ 66%] Built target gmock
+[8.784s] [ 71%] [32m[1mLinking CXX shared library libalpha_driver.so[0m
+[9.111s] [ 71%] Built target alpha_driver
+[9.150s] [ 85%] [32mBuilding CXX object CMakeFiles/test_cobs.dir/test/test_cobs.cpp.o[0m
+[9.150s] [ 85%] [32mBuilding CXX object CMakeFiles/test_crc.dir/test/test_crc.cpp.o[0m
+[9.151s] [ 85%] [32mBuilding CXX object CMakeFiles/test_packet.dir/test/test_packet.cpp.o[0m
+[11.208s] [ 90%] [32m[1mLinking CXX executable test_crc[0m
+[11.621s] [ 90%] Built target test_crc
+[12.157s] [ 95%] [32m[1mLinking CXX executable test_cobs[0m
+[12.339s] [100%] [32m[1mLinking CXX executable test_packet[0m
+[12.511s] [100%] Built target test_cobs
+[12.676s] [100%] Built target test_packet
+[12.695s] Invoked command in '/home/gordonc/alpha_test/build/alpha_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_driver -- -j8 -l8
+[12.795s] Invoking command in '/home/gordonc/alpha_test/build/alpha_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/alpha_driver
+[12.810s] -- Install configuration: ""
+[12.810s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/include
+[12.810s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver
+[12.810s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/packet.hpp
+[12.811s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/mode.hpp
+[12.811s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/crc.hpp
+[12.811s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/cobs.hpp
+[12.811s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/device_id.hpp
+[12.812s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/serial_client.hpp
+[12.812s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/packet_id.hpp
+[12.812s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/driver.hpp
+[12.812s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/lib/libalpha_driver.so
+[12.813s] -- Set runtime path of "/home/gordonc/alpha_test/install/alpha_driver/lib/libalpha_driver.so" to ""
+[12.814s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/library_path.sh
+[12.814s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/library_path.dsv
+[12.814s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/ament_index/resource_index/package_run_dependencies/alpha_driver
+[12.815s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/ament_index/resource_index/parent_prefix_path/alpha_driver
+[12.815s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/ament_prefix_path.sh
+[12.815s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/ament_prefix_path.dsv
+[12.816s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/path.sh
+[12.816s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/path.dsv
+[12.816s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/local_setup.bash
+[12.816s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/local_setup.sh
+[12.817s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/local_setup.zsh
+[12.817s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/local_setup.dsv
+[12.818s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/package.dsv
+[12.818s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/ament_index/resource_index/packages/alpha_driver
+[12.818s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/alpha_driverExport.cmake
+[12.819s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/alpha_driverExport-noconfig.cmake
+[12.819s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/ament_cmake_export_targets-extras.cmake
+[12.819s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.820s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/alpha_driverConfig.cmake
+[12.820s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/alpha_driverConfig-version.cmake
+[12.820s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/package.xml
+[12.824s] Invoked command in '/home/gordonc/alpha_test/build/alpha_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/alpha_driver

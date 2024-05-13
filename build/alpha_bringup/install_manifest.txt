@@ -1,0 +1,17 @@
+/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/launch/alpha.launch.py
+/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/launch/planning.launch.py
+/home/gordonc/alpha_test/install/alpha_bringup/share/ament_index/resource_index/package_run_dependencies/alpha_bringup
+/home/gordonc/alpha_test/install/alpha_bringup/share/ament_index/resource_index/parent_prefix_path/alpha_bringup
+/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/environment/ament_prefix_path.sh
+/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/environment/ament_prefix_path.dsv
+/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/environment/path.sh
+/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/environment/path.dsv
+/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/local_setup.bash
+/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/local_setup.sh
+/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/local_setup.zsh
+/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/local_setup.dsv
+/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/package.dsv
+/home/gordonc/alpha_test/install/alpha_bringup/share/ament_index/resource_index/packages/alpha_bringup
+/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/cmake/alpha_bringupConfig.cmake
+/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/cmake/alpha_bringupConfig-version.cmake
+/home/gordonc/alpha_test/install/alpha_bringup/share/alpha_bringup/package.xml

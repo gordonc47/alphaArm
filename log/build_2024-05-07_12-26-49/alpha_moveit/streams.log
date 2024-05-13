@@ -1,0 +1,5 @@
+[0.039s] Invoking command in '/home/gordonc/alpha_test/build/alpha_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_moveit -- -j8 -l8
+[0.075s] [0mCMake Error: The source directory "/home/gordonc/alpha_test/src/alpha/alpha_moveit" does not exist.
+[0.075s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.078s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.081s] Invoked command in '/home/gordonc/alpha_test/build/alpha_moveit' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_moveit -- -j8 -l8

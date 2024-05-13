@@ -1,0 +1,396 @@
+[0.832s] Invoking command in '/home/gordonc/alpha_test/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/moveit_task_constructor_msgs -- -j8 -l8
+[1.179s] [35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_msgs__rosidl_generator_c[0m
+[1.300s] [  0%] Built target moveit_task_constructor_msgs__cpp
+[1.454s] [35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_msgs__rosidl_typesupport_cpp[0m
+[1.462s] [  0%] Built target ament_cmake_python_copy_moveit_task_constructor_msgs
+[1.536s] [ 12%] Built target moveit_task_constructor_msgs__rosidl_generator_c
+[1.566s] [35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.626s] [35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.699s] [ 24%] Built target moveit_task_constructor_msgs__rosidl_typesupport_cpp
+[1.787s] [35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_msgs__rosidl_typesupport_introspection_c[0m
+[1.788s] [35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.789s] [35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_msgs__rosidl_typesupport_c[0m
+[1.892s] [ 36%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp
+[1.921s] [ 48%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_c
+[1.939s] [ 60%] Built target moveit_task_constructor_msgs__rosidl_typesupport_c
+[1.987s] [ 72%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c
+[1.992s] [ 83%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp
+[2.147s] [ 83%] Built target moveit_task_constructor_msgs
+[2.356s] [ 84%] Built target moveit_task_constructor_msgs__py
+[2.470s] [35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_msgs__rosidl_generator_py[0m
+[2.670s] [ 95%] Built target moveit_task_constructor_msgs__rosidl_generator_py
+[2.821s] [35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_msgs__rosidl_typesupport_c__pyext[0m
+[2.832s] [35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.857s] [35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[3.008s] [ 96%] Built target moveit_task_constructor_msgs__rosidl_typesupport_c__pyext
+[3.008s] [ 98%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.009s] [100%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_c__pyext
+[3.068s] running egg_info
+[3.147s] writing moveit_task_constructor_msgs.egg-info/PKG-INFO
+[3.216s] writing dependency_links to moveit_task_constructor_msgs.egg-info/dependency_links.txt
+[3.217s] writing top-level names to moveit_task_constructor_msgs.egg-info/top_level.txt
+[3.495s] reading manifest file 'moveit_task_constructor_msgs.egg-info/SOURCES.txt'
+[3.499s] writing manifest file 'moveit_task_constructor_msgs.egg-info/SOURCES.txt'
+[3.653s] [100%] Built target ament_cmake_python_build_moveit_task_constructor_msgs_egg
+[3.758s] Invoked command in '/home/gordonc/alpha_test/build/moveit_task_constructor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/moveit_task_constructor_msgs -- -j8 -l8
+[6.091s] Invoking command in '/home/gordonc/alpha_test/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/moveit_task_constructor_msgs
+[6.149s] -- Install configuration: ""
+[6.150s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/ament_index/resource_index/rosidl_interfaces/moveit_task_constructor_msgs
+[6.150s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[6.151s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[6.158s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[6.158s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.h
+[6.158s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__functions.h
+[6.159s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__functions.c
+[6.159s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__struct.h
+[6.159s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/get_solution.h
+[6.159s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[6.160s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/stage_description.h
+[6.160s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_description.h
+[6.160s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.160s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[6.161s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__functions.h
+[6.161s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__functions.c
+[6.161s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__struct.h
+[6.162s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.h
+[6.162s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.h
+[6.162s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.h
+[6.162s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__functions.h
+[6.162s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__functions.h
+[6.163s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__type_support.h
+[6.163s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__struct.h
+[6.163s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__functions.h
+[6.163s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.h
+[6.163s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__struct.h
+[6.164s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__struct.h
+[6.164s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__functions.c
+[6.164s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__struct.h
+[6.164s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__functions.h
+[6.165s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.h
+[6.165s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__functions.c
+[6.165s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__type_support.h
+[6.165s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__functions.c
+[6.165s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__functions.h
+[6.166s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__functions.h
+[6.166s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__functions.h
+[6.166s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__functions.c
+[6.166s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__functions.c
+[6.166s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__functions.c
+[6.167s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__struct.h
+[6.167s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__functions.c
+[6.167s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__functions.h
+[6.167s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__struct.h
+[6.168s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__functions.c
+[6.169s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__struct.h
+[6.169s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.h
+[6.170s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.h
+[6.170s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__struct.h
+[6.174s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__type_support.h
+[6.176s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__functions.c
+[6.179s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__functions.h
+[6.181s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__struct.h
+[6.183s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/property.h
+[6.184s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution.h
+[6.185s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/sub_trajectory.h
+[6.185s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/trajectory_execution_info.h
+[6.186s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/sub_solution.h
+[6.193s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution_info.h
+[6.196s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/stage_statistics.h
+[6.196s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_statistics.h
+[6.196s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[6.197s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/execute_task_solution.h
+[6.197s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[6.197s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__functions.c
+[6.198s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__functions.h
+[6.201s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.h
+[6.201s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.h
+[6.202s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/library_path.sh
+[6.202s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/library_path.dsv
+[6.203s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_generator_c.so
+[6.203s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[6.203s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[6.204s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[6.204s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__rosidl_typesupport_fastrtps_c.h
+[6.204s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[6.204s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[6.205s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__rosidl_typesupport_fastrtps_c.h
+[6.205s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__rosidl_typesupport_fastrtps_c.h
+[6.205s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__rosidl_typesupport_fastrtps_c.h
+[6.205s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__rosidl_typesupport_fastrtps_c.h
+[6.205s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__rosidl_typesupport_fastrtps_c.h
+[6.205s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__rosidl_typesupport_fastrtps_c.h
+[6.206s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__rosidl_typesupport_fastrtps_c.h
+[6.206s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__rosidl_typesupport_fastrtps_c.h
+[6.206s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__rosidl_typesupport_fastrtps_c.h
+[6.206s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__rosidl_typesupport_fastrtps_c.h
+[6.207s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.207s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[6.207s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[6.207s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__rosidl_typesupport_fastrtps_c.h
+[6.208s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.so
+[6.208s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[6.208s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[6.209s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[6.209s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__struct.hpp
+[6.209s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__traits.hpp
+[6.210s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__builder.hpp
+[6.210s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/get_solution.hpp
+[6.210s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[6.211s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/stage_statistics.hpp
+[6.211s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/stage_description.hpp
+[6.211s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[6.213s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__traits.hpp
+[6.213s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__builder.hpp
+[6.214s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__traits.hpp
+[6.214s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__struct.hpp
+[6.214s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__traits.hpp
+[6.214s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__builder.hpp
+[6.215s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__builder.hpp
+[6.215s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__builder.hpp
+[6.215s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__struct.hpp
+[6.215s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__builder.hpp
+[6.215s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__struct.hpp
+[6.216s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__builder.hpp
+[6.216s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__builder.hpp
+[6.216s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__builder.hpp
+[6.216s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__builder.hpp
+[6.217s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__traits.hpp
+[6.217s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__struct.hpp
+[6.217s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__struct.hpp
+[6.217s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__struct.hpp
+[6.217s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__traits.hpp
+[6.218s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__traits.hpp
+[6.218s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__struct.hpp
+[6.218s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__builder.hpp
+[6.219s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__struct.hpp
+[6.219s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__traits.hpp
+[6.219s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__struct.hpp
+[6.220s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__traits.hpp
+[6.220s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__struct.hpp
+[6.221s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__traits.hpp
+[6.221s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__traits.hpp
+[6.221s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/property.hpp
+[6.222s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/sub_solution.hpp
+[6.222s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/trajectory_execution_info.hpp
+[6.222s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_statistics.hpp
+[6.223s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/sub_trajectory.hpp
+[6.223s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution_info.hpp
+[6.223s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_description.hpp
+[6.223s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution.hpp
+[6.224s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[6.224s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/execute_task_solution.hpp
+[6.224s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[6.225s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__traits.hpp
+[6.225s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp
+[6.226s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp
+[6.226s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[6.226s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[6.226s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[6.227s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__rosidl_typesupport_fastrtps_cpp.hpp
+[6.227s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/dds_fastrtps
+[6.228s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[6.228s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[6.228s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__rosidl_typesupport_fastrtps_cpp.hpp
+[6.229s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__rosidl_typesupport_fastrtps_cpp.hpp
+[6.229s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__rosidl_typesupport_fastrtps_cpp.hpp
+[6.229s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__rosidl_typesupport_fastrtps_cpp.hpp
+[6.229s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/dds_fastrtps
+[6.230s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__rosidl_typesupport_fastrtps_cpp.hpp
+[6.230s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__rosidl_typesupport_fastrtps_cpp.hpp
+[6.230s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__rosidl_typesupport_fastrtps_cpp.hpp
+[6.230s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__rosidl_typesupport_fastrtps_cpp.hpp
+[6.230s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[6.231s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__rosidl_typesupport_fastrtps_cpp.hpp
+[6.231s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.231s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[6.231s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[6.232s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/dds_fastrtps
+[6.234s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__rosidl_typesupport_fastrtps_cpp.hpp
+[6.234s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.235s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[6.235s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[6.236s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[6.236s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__rosidl_typesupport_introspection_c.h
+[6.237s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.c
+[6.237s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[6.237s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[6.238s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.c
+[6.238s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__rosidl_typesupport_introspection_c.h
+[6.238s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.c
+[6.238s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.c
+[6.238s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__rosidl_typesupport_introspection_c.h
+[6.239s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.c
+[6.240s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.c
+[6.240s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__rosidl_typesupport_introspection_c.h
+[6.241s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__rosidl_typesupport_introspection_c.h
+[6.242s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.c
+[6.242s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__type_support.c
+[6.242s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__rosidl_typesupport_introspection_c.h
+[6.242s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.c
+[6.243s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__rosidl_typesupport_introspection_c.h
+[6.243s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__rosidl_typesupport_introspection_c.h
+[6.245s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__rosidl_typesupport_introspection_c.h
+[6.246s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__type_support.c
+[6.247s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__type_support.c
+[6.247s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__rosidl_typesupport_introspection_c.h
+[6.248s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__rosidl_typesupport_introspection_c.h
+[6.249s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.252s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[6.252s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[6.261s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__rosidl_typesupport_introspection_c.h
+[6.262s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.c
+[6.262s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_c.so
+[6.262s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_c.so
+[6.262s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[6.263s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[6.263s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[6.263s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__rosidl_typesupport_introspection_cpp.hpp
+[6.270s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.cpp
+[6.270s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[6.270s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[6.271s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__type_support.cpp
+[6.271s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__rosidl_typesupport_introspection_cpp.hpp
+[6.271s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__rosidl_typesupport_introspection_cpp.hpp
+[6.271s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.cpp
+[6.272s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.cpp
+[6.272s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[6.272s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__rosidl_typesupport_introspection_cpp.hpp
+[6.273s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__type_support.cpp
+[6.273s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__rosidl_typesupport_introspection_cpp.hpp
+[6.273s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__rosidl_typesupport_introspection_cpp.hpp
+[6.273s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.cpp
+[6.274s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__type_support.cpp
+[6.274s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__rosidl_typesupport_introspection_cpp.hpp
+[6.274s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.cpp
+[6.274s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.cpp
+[6.275s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__rosidl_typesupport_introspection_cpp.hpp
+[6.275s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__rosidl_typesupport_introspection_cpp.hpp
+[6.275s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__rosidl_typesupport_introspection_cpp.hpp
+[6.275s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.cpp
+[6.275s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.cpp
+[6.275s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[6.276s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[6.276s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__rosidl_typesupport_introspection_cpp.hpp
+[6.276s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.cpp
+[6.276s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.so
+[6.277s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_cpp.so
+[6.285s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/pythonpath.sh
+[6.298s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/pythonpath.dsv
+[6.298s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs-0.1.3-py3.10.egg-info
+[6.298s] -- Installing: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs-0.1.3-py3.10.egg-info/dependency_links.txt
+[6.298s] -- Installing: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs-0.1.3-py3.10.egg-info/top_level.txt
+[6.298s] -- Installing: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs-0.1.3-py3.10.egg-info/SOURCES.txt
+[6.299s] -- Installing: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs-0.1.3-py3.10.egg-info/PKG-INFO
+[6.299s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs
+[6.299s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.300s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.300s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/libmoveit_task_constructor_msgs__rosidl_generator_py.so
+[6.300s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv
+[6.300s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv/__init__.py
+[6.301s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv/_get_solution_s.c
+[6.301s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv/_get_solution.py
+[6.301s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_c.c
+[6.301s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/__init__.py
+[6.301s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.302s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.302s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg
+[6.302s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_solution_info.py
+[6.302s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_stage_statistics_s.c
+[6.302s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_stage_statistics.py
+[6.303s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_sub_trajectory_s.c
+[6.303s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_trajectory_execution_info.py
+[6.303s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_sub_solution.py
+[6.303s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_trajectory_execution_info_s.c
+[6.311s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_solution_info_s.c
+[6.312s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_stage_description_s.c
+[6.312s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/__init__.py
+[6.312s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_sub_solution_s.c
+[6.313s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_sub_trajectory.py
+[6.313s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_stage_description.py
+[6.313s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_task_description.py
+[6.314s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_property_s.c
+[6.314s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_task_description_s.c
+[6.319s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_solution.py
+[6.320s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_task_statistics_s.c
+[6.320s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_task_statistics.py
+[6.320s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_solution_s.c
+[6.322s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg/_property.py
+[6.322s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action
+[6.322s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action/_execute_task_solution.py
+[6.322s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action/__init__.py
+[6.322s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action/_execute_task_solution_s.c
+[6.323s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.414s] Listing '/home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs'...
+[6.415s] Listing '/home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/action'...
+[6.415s] Listing '/home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/msg'...
+[6.415s] Listing '/home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/srv'...
+[6.439s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.441s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.446s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.451s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_generator_py.so
+[6.453s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Property.idl
+[6.454s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Solution.idl
+[6.455s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SolutionInfo.idl
+[6.456s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageDescription.idl
+[6.456s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageStatistics.idl
+[6.457s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubSolution.idl
+[6.458s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubTrajectory.idl
+[6.458s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskDescription.idl
+[6.463s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskStatistics.idl
+[6.464s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TrajectoryExecutionInfo.idl
+[6.465s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/srv/GetSolution.idl
+[6.465s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/action/ExecuteTaskSolution.idl
+[6.466s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Property.msg
+[6.467s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Solution.msg
+[6.467s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SolutionInfo.msg
+[6.468s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageDescription.msg
+[6.497s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageStatistics.msg
+[6.500s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubSolution.msg
+[6.503s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubTrajectory.msg
+[6.504s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskDescription.msg
+[6.504s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskStatistics.msg
+[6.504s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TrajectoryExecutionInfo.msg
+[6.516s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/srv/GetSolution.srv
+[6.519s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/srv/GetSolution_Request.msg
+[6.520s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/srv/GetSolution_Response.msg
+[6.521s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/action/ExecuteTaskSolution.action
+[6.521s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/ament_index/resource_index/package_run_dependencies/moveit_task_constructor_msgs
+[6.521s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/ament_index/resource_index/parent_prefix_path/moveit_task_constructor_msgs
+[6.522s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/ament_prefix_path.sh
+[6.522s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/ament_prefix_path.dsv
+[6.522s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/path.sh
+[6.522s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/path.dsv
+[6.522s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/local_setup.bash
+[6.522s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/local_setup.sh
+[6.523s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/local_setup.zsh
+[6.523s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/local_setup.dsv
+[6.523s] -- Installing: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/package.dsv
+[6.540s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/ament_index/resource_index/packages/moveit_task_constructor_msgs
+[6.541s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_cExport.cmake
+[6.541s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.542s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.542s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.543s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_cppExport.cmake
+[6.543s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.544s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.544s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.545s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.545s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_cExport.cmake
+[6.545s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.546s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.546s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.546s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_cppExport.cmake
+[6.546s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.547s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_pyExport.cmake
+[6.547s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.547s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/rosidl_cmake-extras.cmake
+[6.547s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.547s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.548s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.548s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.548s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.548s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.549s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgsConfig.cmake
+[6.549s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgsConfig-version.cmake
+[6.549s] -- Up-to-date: /home/gordonc/alpha_test/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/package.xml
+[6.588s] Invoked command in '/home/gordonc/alpha_test/build/moveit_task_constructor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/moveit_task_constructor_msgs

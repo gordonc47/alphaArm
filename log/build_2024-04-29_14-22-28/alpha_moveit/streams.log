@@ -1,0 +1,26 @@
+[0.048s] Invoking command in '/home/gordonc/alpha_test/build/alpha_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_moveit -- -j8 -l8
+[0.183s] [35m[1mConsolidate compiler generated dependencies of target alpha_moveit[0m
+[0.255s] [ 50%] [32mBuilding CXX object CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o[0m
+[17.652s] [100%] [32m[1mLinking CXX executable alpha_moveit[0m
+[18.289s] [100%] Built target alpha_moveit
+[18.315s] Invoked command in '/home/gordonc/alpha_test/build/alpha_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_moveit -- -j8 -l8
+[18.391s] Invoking command in '/home/gordonc/alpha_test/build/alpha_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/alpha_moveit
+[18.411s] -- Install configuration: ""
+[18.412s] -- Installing: /home/gordonc/alpha_test/install/alpha_moveit/lib/alpha_moveit/alpha_moveit
+[18.414s] -- Set runtime path of "/home/gordonc/alpha_test/install/alpha_moveit/lib/alpha_moveit/alpha_moveit" to ""
+[18.415s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_moveit/share/ament_index/resource_index/package_run_dependencies/alpha_moveit
+[18.415s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_moveit/share/ament_index/resource_index/parent_prefix_path/alpha_moveit
+[18.415s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_moveit/share/alpha_moveit/environment/ament_prefix_path.sh
+[18.416s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_moveit/share/alpha_moveit/environment/ament_prefix_path.dsv
+[18.416s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_moveit/share/alpha_moveit/environment/path.sh
+[18.416s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_moveit/share/alpha_moveit/environment/path.dsv
+[18.416s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_moveit/share/alpha_moveit/local_setup.bash
+[18.416s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_moveit/share/alpha_moveit/local_setup.sh
+[18.417s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_moveit/share/alpha_moveit/local_setup.zsh
+[18.417s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_moveit/share/alpha_moveit/local_setup.dsv
+[18.417s] -- Installing: /home/gordonc/alpha_test/install/alpha_moveit/share/alpha_moveit/package.dsv
+[18.417s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_moveit/share/ament_index/resource_index/packages/alpha_moveit
+[18.417s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_moveit/share/alpha_moveit/cmake/alpha_moveitConfig.cmake
+[18.417s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_moveit/share/alpha_moveit/cmake/alpha_moveitConfig-version.cmake
+[18.418s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_moveit/share/alpha_moveit/package.xml
+[18.419s] Invoked command in '/home/gordonc/alpha_test/build/alpha_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/alpha_moveit

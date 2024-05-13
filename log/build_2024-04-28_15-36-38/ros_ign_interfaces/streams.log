@@ -1,0 +1,678 @@
+[0.027s] Invoking command in '/home/gordonc/alpha_test/build/ros_ign_interfaces': AMENT_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gordonc/alpha_test/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/gordonc/alpha_test/src/ros_gz/ros_ign_interfaces -DCMAKE_INSTALL_PREFIX=/home/gordonc/alpha_test/install/ros_ign_interfaces
+[0.130s] -- The C compiler identification is GNU 11.4.0
+[0.229s] -- The CXX compiler identification is GNU 11.4.0
+[0.248s] -- Detecting C compiler ABI info
+[0.353s] -- Detecting C compiler ABI info - done
+[0.366s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.366s] -- Detecting C compile features
+[0.367s] -- Detecting C compile features - done
+[0.371s] -- Detecting CXX compiler ABI info
+[0.499s] -- Detecting CXX compiler ABI info - done
+[0.512s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.512s] -- Detecting CXX compile features
+[0.513s] -- Detecting CXX compile features - done
+[0.524s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.102s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.348s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.477s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.491s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.518s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.553s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.608s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.668s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.737s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.817s] -- Found ros_gz_interfaces: 0.244.13 (/home/gordonc/alpha_test/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake)
+[2.012s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.733s] -- Found ament_cmake_cppcheck: 0.12.10 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.744s] -- Found ament_cmake_cpplint: 0.12.10 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.756s] -- Found ament_cmake_uncrustify: 0.12.10 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.768s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.646s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.979s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.022s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.032s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.076s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.077s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.077s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.077s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.115s] -- Found PythonExtra: .so  
+[4.296s] -- Found ament_cmake_flake8: 0.12.10 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[4.308s] -- Found ament_cmake_pep257: 0.12.10 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[4.322s] -- Configuring done
+[4.437s] -- Generating done
+[4.442s] -- Build files have been written to: /home/gordonc/alpha_test/build/ros_ign_interfaces
+[4.458s] Invoked command in '/home/gordonc/alpha_test/build/ros_ign_interfaces' returned '0': AMENT_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gordonc/alpha_test/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/gordonc/alpha_test/src/ros_gz/ros_ign_interfaces -DCMAKE_INSTALL_PREFIX=/home/gordonc/alpha_test/install/ros_ign_interfaces
+[4.461s] Invoking command in '/home/gordonc/alpha_test/build/ros_ign_interfaces': AMENT_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gordonc/alpha_test/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gordonc/alpha_test/build/ros_ign_interfaces -- -j8 -l8
+[4.549s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.575s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.588s] [  0%] Built target ament_cmake_python_copy_ros_ign_interfaces
+[4.985s] running egg_info
+[4.986s] creating ros_ign_interfaces.egg-info
+[5.019s] writing ros_ign_interfaces.egg-info/PKG-INFO
+[5.019s] writing dependency_links to ros_ign_interfaces.egg-info/dependency_links.txt
+[5.020s] writing top-level names to ros_ign_interfaces.egg-info/top_level.txt
+[5.020s] writing manifest file 'ros_ign_interfaces.egg-info/SOURCES.txt'
+[5.116s] reading manifest file 'ros_ign_interfaces.egg-info/SOURCES.txt'
+[5.117s] writing manifest file 'ros_ign_interfaces.egg-info/SOURCES.txt'
+[5.160s] [  0%] Built target ament_cmake_python_build_ros_ign_interfaces_egg
+[11.542s] [  1%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_ign_interfaces/msg/detail/contact__functions.c.o[0m
+[11.555s] [  2%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_ign_interfaces/msg/detail/contacts__functions.c.o[0m
+[11.589s] [  3%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_ign_interfaces/msg/detail/entity_factory__functions.c.o[0m
+[11.617s] [  3%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_ign_interfaces/msg/detail/entity__functions.c.o[0m
+[11.672s] [  4%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_ign_interfaces/msg/detail/gui_camera__functions.c.o[0m
+[11.765s] [  4%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_ign_interfaces/msg/detail/joint_wrench__functions.c.o[0m
+[12.076s] [  5%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_ign_interfaces/msg/detail/light__functions.c.o[0m
+[12.150s] [  6%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_ign_interfaces/msg/detail/string_vec__functions.c.o[0m
+[12.253s] [  6%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_ign_interfaces/msg/detail/track_visual__functions.c.o[0m
+[12.281s] [  7%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_ign_interfaces/msg/detail/video_record__functions.c.o[0m
+[12.313s] [  8%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_ign_interfaces/msg/detail/world_control__functions.c.o[0m
+[12.415s] [  8%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_ign_interfaces/msg/detail/world_reset__functions.c.o[0m
+[12.437s] [  9%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_ign_interfaces/srv/detail/control_world__functions.c.o[0m
+[12.695s] [ 10%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_ign_interfaces/srv/detail/delete_entity__functions.c.o[0m
+[12.709s] [ 10%] Built target ros_ign_interfaces__cpp
+[12.774s] [ 10%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_ign_interfaces/srv/detail/set_entity_pose__functions.c.o[0m
+[12.808s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.808s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.880s] [ 13%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_ign_interfaces/srv/detail/spawn_entity__functions.c.o[0m
+[12.933s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[13.429s] [ 14%] [32m[1mLinking C shared library libros_ign_interfaces__rosidl_generator_c.so[0m
+[13.706s] [ 14%] Built target ros_ign_interfaces__rosidl_generator_c
+[13.760s] [ 15%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.813s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.814s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[23.106s] [ 18%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ign_interfaces/msg/detail/contact__type_support.cpp.o[0m
+[23.130s] [ 19%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ign_interfaces/msg/detail/contacts__type_support.cpp.o[0m
+[23.146s] [ 19%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ign_interfaces/msg/detail/entity__type_support.cpp.o[0m
+[23.226s] [ 20%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ign_interfaces/msg/contact__type_support.cpp.o[0m
+[23.288s] [ 20%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ign_interfaces/msg/contact__type_support.cpp.o[0m
+[23.820s] [ 21%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ign_interfaces/msg/contacts__type_support.cpp.o[0m
+[24.206s] [ 22%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ign_interfaces/msg/entity__type_support.cpp.o[0m
+[24.471s] [ 22%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ign_interfaces/msg/entity_factory__type_support.cpp.o[0m
+[24.861s] [ 23%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ign_interfaces/msg/gui_camera__type_support.cpp.o[0m
+[25.311s] [ 24%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ign_interfaces/msg/joint_wrench__type_support.cpp.o[0m
+[25.676s] [ 24%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ign_interfaces/msg/light__type_support.cpp.o[0m
+[25.871s] [ 24%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ign_interfaces/msg/contacts__type_support.cpp.o[0m
+[26.112s] [ 25%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ign_interfaces/msg/string_vec__type_support.cpp.o[0m
+[26.360s] [ 26%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ign_interfaces/msg/detail/entity_factory__type_support.cpp.o[0m
+[26.401s] [ 26%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ign_interfaces/msg/detail/contact__type_support_c.cpp.o[0m
+[26.519s] [ 28%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ign_interfaces/msg/track_visual__type_support.cpp.o[0m
+[26.521s] [ 28%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ign_interfaces/msg/detail/gui_camera__type_support.cpp.o[0m
+[26.880s] [ 28%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ign_interfaces/msg/video_record__type_support.cpp.o[0m
+[27.062s] [ 29%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ign_interfaces/msg/detail/contact__type_support.c.o[0m
+[27.110s] [ 30%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ign_interfaces/msg/detail/dds_fastrtps/contact__type_support.cpp.o[0m
+[27.276s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ign_interfaces/msg/world_control__type_support.cpp.o[0m
+[27.536s] [ 31%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ign_interfaces/msg/detail/contacts__type_support.c.o[0m
+[27.618s] [ 32%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ign_interfaces/msg/world_reset__type_support.cpp.o[0m
+[28.017s] [ 33%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ign_interfaces/srv/control_world__type_support.cpp.o[0m
+[28.017s] [ 33%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ign_interfaces/msg/detail/entity__type_support.c.o[0m
+[28.325s] [ 34%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ign_interfaces/msg/entity__type_support.cpp.o[0m
+[28.413s] [ 35%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ign_interfaces/srv/delete_entity__type_support.cpp.o[0m
+[28.465s] [ 36%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ign_interfaces/msg/detail/entity_factory__type_support.c.o[0m
+[28.774s] [ 37%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ign_interfaces/srv/set_entity_pose__type_support.cpp.o[0m
+[28.814s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ign_interfaces/msg/detail/contacts__type_support_c.cpp.o[0m
+[28.902s] [ 38%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ign_interfaces/msg/detail/gui_camera__type_support.c.o[0m
+[29.176s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_ign_interfaces/srv/spawn_entity__type_support.cpp.o[0m
+[29.336s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ign_interfaces/msg/detail/joint_wrench__type_support.cpp.o[0m
+[29.380s] [ 39%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ign_interfaces/msg/detail/joint_wrench__type_support.c.o[0m
+[29.565s] [ 40%] [32m[1mLinking CXX shared library libros_ign_interfaces__rosidl_typesupport_c.so[0m
+[29.873s] [ 41%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ign_interfaces/msg/detail/light__type_support.c.o[0m
+[29.940s] [ 41%] Built target ros_ign_interfaces__rosidl_typesupport_c
+[30.238s] [ 42%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ign_interfaces/msg/entity_factory__type_support.cpp.o[0m
+[30.250s] [ 42%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ign_interfaces/msg/detail/string_vec__type_support.c.o[0m
+[30.348s] [ 43%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ign_interfaces/msg/detail/dds_fastrtps/entity__type_support.cpp.o[0m
+[30.528s] [ 44%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ign_interfaces/msg/detail/track_visual__type_support.c.o[0m
+[30.562s] [ 45%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ign_interfaces/msg/detail/entity__type_support_c.cpp.o[0m
+[30.955s] [ 46%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ign_interfaces/msg/detail/video_record__type_support.c.o[0m
+[31.370s] [ 46%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ign_interfaces/msg/detail/world_control__type_support.c.o[0m
+[31.803s] [ 46%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ign_interfaces/msg/gui_camera__type_support.cpp.o[0m
+[31.815s] [ 47%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ign_interfaces/msg/detail/light__type_support.cpp.o[0m
+[31.860s] [ 48%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ign_interfaces/msg/detail/world_reset__type_support.c.o[0m
+[32.275s] [ 49%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ign_interfaces/srv/detail/control_world__type_support.c.o[0m
+[32.468s] [ 49%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ign_interfaces/msg/detail/dds_fastrtps/contacts__type_support.cpp.o[0m
+[32.520s] [ 50%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ign_interfaces/msg/detail/joint_wrench__type_support_c.cpp.o[0m
+[32.666s] [ 50%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ign_interfaces/srv/detail/delete_entity__type_support.c.o[0m
+[33.169s] [ 51%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ign_interfaces/srv/detail/set_entity_pose__type_support.c.o[0m
+[33.594s] [ 52%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ign_interfaces/msg/joint_wrench__type_support.cpp.o[0m
+[33.666s] [ 53%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_ign_interfaces/srv/detail/spawn_entity__type_support.c.o[0m
+[34.074s] [ 53%] [32m[1mLinking C shared library libros_ign_interfaces__rosidl_typesupport_introspection_c.so[0m
+[34.113s] [ 54%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ign_interfaces/msg/detail/string_vec__type_support.cpp.o[0m
+[34.241s] [ 54%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ign_interfaces/msg/detail/light__type_support_c.cpp.o[0m
+[34.369s] [ 54%] Built target ros_ign_interfaces__rosidl_typesupport_introspection_c
+[34.833s] [ 55%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ign_interfaces/msg/detail/dds_fastrtps/entity_factory__type_support.cpp.o[0m
+[35.061s] [ 56%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ign_interfaces/msg/light__type_support.cpp.o[0m
+[35.915s] [ 57%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ign_interfaces/msg/detail/track_visual__type_support_c.cpp.o[0m
+[36.109s] [ 57%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ign_interfaces/msg/detail/track_visual__type_support.cpp.o[0m
+[36.230s] [ 57%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ign_interfaces/msg/string_vec__type_support.cpp.o[0m
+[36.572s] [ 57%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ign_interfaces/msg/detail/dds_fastrtps/gui_camera__type_support.cpp.o[0m
+[37.277s] [ 58%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ign_interfaces/msg/track_visual__type_support.cpp.o[0m
+[37.441s] [ 59%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ign_interfaces/msg/detail/string_vec__type_support_c.cpp.o[0m
+[37.615s] [ 60%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ign_interfaces/msg/detail/video_record__type_support.cpp.o[0m
+[38.184s] [ 61%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ign_interfaces/msg/detail/dds_fastrtps/joint_wrench__type_support.cpp.o[0m
+[38.351s] [ 62%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ign_interfaces/msg/video_record__type_support.cpp.o[0m
+[38.699s] [ 62%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ign_interfaces/msg/detail/video_record__type_support_c.cpp.o[0m
+[38.973s] [ 63%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ign_interfaces/msg/detail/world_control__type_support.cpp.o[0m
+[39.114s] [ 63%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ign_interfaces/msg/world_control__type_support.cpp.o[0m
+[39.561s] [ 64%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ign_interfaces/msg/detail/dds_fastrtps/light__type_support.cpp.o[0m
+[39.817s] [ 65%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ign_interfaces/msg/detail/gui_camera__type_support_c.cpp.o[0m
+[40.007s] [ 66%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ign_interfaces/msg/world_reset__type_support.cpp.o[0m
+[40.149s] [ 66%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ign_interfaces/msg/detail/world_reset__type_support.cpp.o[0m
+[40.766s] [ 67%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ign_interfaces/srv/control_world__type_support.cpp.o[0m
+[40.769s] [ 67%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ign_interfaces/msg/detail/dds_fastrtps/string_vec__type_support.cpp.o[0m
+[41.089s] [ 68%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ign_interfaces/msg/detail/world_reset__type_support_c.cpp.o[0m
+[41.372s] [ 69%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ign_interfaces/srv/detail/control_world__type_support.cpp.o[0m
+[41.655s] [ 70%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ign_interfaces/srv/set_entity_pose__type_support.cpp.o[0m
+[41.977s] [ 71%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ign_interfaces/msg/detail/dds_fastrtps/track_visual__type_support.cpp.o[0m
+[42.312s] [ 71%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ign_interfaces/srv/detail/control_world__type_support_c.cpp.o[0m
+[42.333s] [ 72%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ign_interfaces/srv/detail/delete_entity__type_support.cpp.o[0m
+[42.338s] [ 73%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ign_interfaces/srv/spawn_entity__type_support.cpp.o[0m
+[42.925s] [ 74%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ign_interfaces/msg/detail/dds_fastrtps/video_record__type_support.cpp.o[0m
+[43.242s] [ 74%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ign_interfaces/srv/detail/set_entity_pose__type_support.cpp.o[0m
+[43.255s] [ 74%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_ign_interfaces/srv/delete_entity__type_support.cpp.o[0m
+[43.266s] [ 75%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ign_interfaces/srv/detail/delete_entity__type_support_c.cpp.o[0m
+[43.945s] [ 75%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ign_interfaces/msg/detail/dds_fastrtps/world_control__type_support.cpp.o[0m
+[44.135s] [ 75%] [32m[1mLinking CXX shared library libros_ign_interfaces__rosidl_typesupport_cpp.so[0m
+[44.204s] [ 76%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ign_interfaces/srv/detail/set_entity_pose__type_support_c.cpp.o[0m
+[44.247s] [ 76%] Built target ros_ign_interfaces__rosidl_typesupport_cpp
+[44.450s] [ 77%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_ign_interfaces/srv/detail/spawn_entity__type_support.cpp.o[0m
+[44.909s] [ 78%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ign_interfaces/srv/detail/dds_fastrtps/control_world__type_support.cpp.o[0m
+[45.074s] [ 78%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ign_interfaces/srv/detail/spawn_entity__type_support_c.cpp.o[0m
+[45.358s] [ 79%] [32m[1mLinking CXX shared library libros_ign_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[45.551s] [ 79%] Built target ros_ign_interfaces__rosidl_typesupport_introspection_cpp
+[45.839s] [ 80%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ign_interfaces/srv/detail/dds_fastrtps/spawn_entity__type_support.cpp.o[0m
+[45.877s] [ 81%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ign_interfaces/msg/detail/world_control__type_support_c.cpp.o[0m
+[46.632s] [ 81%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_ign_interfaces/msg/detail/entity_factory__type_support_c.cpp.o[0m
+[46.697s] [ 82%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ign_interfaces/srv/detail/dds_fastrtps/set_entity_pose__type_support.cpp.o[0m
+[47.376s] [ 83%] [32m[1mLinking CXX shared library libros_ign_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[47.534s] [ 83%] Built target ros_ign_interfaces__rosidl_typesupport_fastrtps_c
+[47.578s] [ 83%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ign_interfaces/srv/detail/dds_fastrtps/delete_entity__type_support.cpp.o[0m
+[48.351s] [ 84%] [32mBuilding CXX object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_ign_interfaces/msg/detail/dds_fastrtps/world_reset__type_support.cpp.o[0m
+[49.091s] [ 84%] [32m[1mLinking CXX shared library libros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[49.243s] [ 84%] Built target ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp
+[49.281s] [ 84%] Built target ros_ign_interfaces
+[49.321s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[59.728s] [ 85%] Built target ros_ign_interfaces__py
+[59.921s] [ 85%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_ign_interfaces/msg/_contact_s.c.o[0m
+[59.925s] [ 86%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_ign_interfaces/msg/_entity_s.c.o[0m
+[59.932s] [ 87%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_ign_interfaces/msg/_contacts_s.c.o[0m
+[60.898s] [ 88%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_ign_interfaces/msg/_string_vec_s.c.o[0m
+[60.965s] [ 89%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_ign_interfaces/msg/_track_visual_s.c.o[0m
+[61.086s] [ 89%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_ign_interfaces/msg/_video_record_s.c.o[0m
+[61.177s] [ 90%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_ign_interfaces/msg/_world_control_s.c.o[0m
+[61.950s] [ 90%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_ign_interfaces/msg/_light_s.c.o[0m
+[61.996s] [ 90%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_ign_interfaces/srv/_control_world_s.c.o[0m
+[62.001s] [ 91%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_ign_interfaces/msg/_world_reset_s.c.o[0m
+[63.251s] [ 91%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_ign_interfaces/srv/_spawn_entity_s.c.o[0m
+[63.871s] [ 92%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_ign_interfaces/srv/_set_entity_pose_s.c.o[0m
+[64.487s] [ 93%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_ign_interfaces/srv/_delete_entity_s.c.o[0m
+[65.057s] [ 94%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_ign_interfaces/msg/_joint_wrench_s.c.o[0m
+[65.641s] [ 95%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_ign_interfaces/msg/_gui_camera_s.c.o[0m
+[66.218s] [ 95%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_ign_interfaces/msg/_entity_factory_s.c.o[0m
+[66.804s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ros_ign_interfaces/libros_ign_interfaces__rosidl_generator_py.so[0m
+[66.962s] [ 96%] Built target ros_ign_interfaces__rosidl_generator_py
+[67.031s] [ 97%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_ign_interfaces/_ros_ign_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[67.870s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[68.027s] [ 97%] Built target ros_ign_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[68.093s] [ 98%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_ign_interfaces/_ros_ign_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[68.880s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[69.030s] [ 98%] Built target ros_ign_interfaces__rosidl_typesupport_c__pyext
+[69.099s] [ 99%] [32mBuilding C object CMakeFiles/ros_ign_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_ign_interfaces/_ros_ign_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[69.850s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[69.999s] [100%] Built target ros_ign_interfaces__rosidl_typesupport_introspection_c__pyext
+[70.034s] Invoked command in '/home/gordonc/alpha_test/build/ros_ign_interfaces' returned '0': AMENT_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gordonc/alpha_test/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gordonc/alpha_test/build/ros_ign_interfaces -- -j8 -l8
+[71.401s] Invoking command in '/home/gordonc/alpha_test/build/ros_ign_interfaces': AMENT_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gordonc/alpha_test/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gordonc/alpha_test/build/ros_ign_interfaces
+[71.454s] -- Install configuration: ""
+[71.456s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros_ign_interfaces
+[71.457s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces
+[71.457s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv
+[71.458s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/set_entity_pose.h
+[71.458s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail
+[71.459s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__functions.h
+[71.459s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__functions.c
+[71.460s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__functions.h
+[71.461s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__functions.h
+[71.461s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__functions.c
+[71.462s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__struct.h
+[71.463s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__type_support.h
+[71.463s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__functions.c
+[71.464s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__struct.h
+[71.465s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__type_support.h
+[71.466s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__struct.h
+[71.467s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__functions.h
+[71.467s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__type_support.h
+[71.468s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__type_support.h
+[71.469s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__struct.h
+[71.469s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__functions.c
+[71.470s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/spawn_entity.h
+[71.471s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/delete_entity.h
+[71.473s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/control_world.h
+[71.473s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg
+[71.473s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/rosidl_generator_c__visibility_control.h
+[71.474s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/string_vec.h
+[71.474s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/entity.h
+[71.479s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/entity_factory.h
+[71.480s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail
+[71.480s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__type_support.h
+[71.481s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__struct.h
+[71.481s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__type_support.h
+[71.484s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__functions.h
+[71.485s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__type_support.h
+[71.485s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__functions.h
+[71.485s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__functions.c
+[71.486s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__functions.h
+[71.486s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__functions.c
+[71.486s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__struct.h
+[71.487s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__struct.h
+[71.487s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__functions.h
+[71.487s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__struct.h
+[71.487s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__type_support.h
+[71.489s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__struct.h
+[71.489s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__functions.h
+[71.489s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__type_support.h
+[71.495s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__type_support.h
+[71.496s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__struct.h
+[71.496s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__functions.c
+[71.496s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__functions.c
+[71.497s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__functions.h
+[71.497s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__struct.h
+[71.497s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__functions.c
+[71.498s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__struct.h
+[71.498s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__functions.c
+[71.498s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__type_support.h
+[71.498s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__functions.h
+[71.499s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__type_support.h
+[71.499s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__struct.h
+[71.499s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__type_support.h
+[71.500s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__functions.c
+[71.500s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__struct.h
+[71.500s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__functions.h
+[71.500s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__type_support.h
+[71.501s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__type_support.h
+[71.501s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__functions.h
+[71.501s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__functions.h
+[71.501s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__functions.c
+[71.501s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__functions.c
+[71.505s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__type_support.h
+[71.505s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__struct.h
+[71.505s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__functions.h
+[71.505s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__functions.c
+[71.505s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__functions.h
+[71.506s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__functions.c
+[71.506s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__struct.h
+[71.506s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__functions.c
+[71.506s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/joint_wrench.h
+[71.506s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/contacts.h
+[71.507s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/video_record.h
+[71.507s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/gui_camera.h
+[71.507s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/light.h
+[71.507s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/world_reset.h
+[71.508s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/track_visual.h
+[71.509s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/contact.h
+[71.509s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/world_control.h
+[71.509s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/environment/library_path.sh
+[71.520s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/environment/library_path.dsv
+[71.521s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_generator_c.so
+[71.521s] -- Set runtime path of "/home/gordonc/alpha_test/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_generator_c.so" to ""
+[71.521s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces
+[71.522s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv
+[71.522s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail
+[71.522s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_fastrtps_c.h
+[71.522s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__rosidl_typesupport_fastrtps_c.h
+[71.522s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__rosidl_typesupport_fastrtps_c.h
+[71.523s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__rosidl_typesupport_fastrtps_c.h
+[71.523s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg
+[71.523s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail
+[71.523s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__rosidl_typesupport_fastrtps_c.h
+[71.523s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__rosidl_typesupport_fastrtps_c.h
+[71.524s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__rosidl_typesupport_fastrtps_c.h
+[71.524s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__rosidl_typesupport_fastrtps_c.h
+[71.524s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__rosidl_typesupport_fastrtps_c.h
+[71.524s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[71.524s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__rosidl_typesupport_fastrtps_c.h
+[71.524s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__rosidl_typesupport_fastrtps_c.h
+[71.525s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__rosidl_typesupport_fastrtps_c.h
+[71.525s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__rosidl_typesupport_fastrtps_c.h
+[71.525s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__rosidl_typesupport_fastrtps_c.h
+[71.525s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__rosidl_typesupport_fastrtps_c.h
+[71.526s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[71.526s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_fastrtps_c.so
+[71.526s] -- Set runtime path of "/home/gordonc/alpha_test/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[71.526s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces
+[71.527s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv
+[71.527s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/control_world.hpp
+[71.527s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail
+[71.527s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__traits.hpp
+[71.527s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__builder.hpp
+[71.528s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__struct.hpp
+[71.528s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__struct.hpp
+[71.528s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__builder.hpp
+[71.528s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__struct.hpp
+[71.528s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__struct.hpp
+[71.529s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__builder.hpp
+[71.529s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__builder.hpp
+[71.530s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__traits.hpp
+[71.540s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__traits.hpp
+[71.541s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__traits.hpp
+[71.541s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/set_entity_pose.hpp
+[71.541s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/delete_entity.hpp
+[71.541s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/spawn_entity.hpp
+[71.542s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg
+[71.542s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/world_control.hpp
+[71.542s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail
+[71.542s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__traits.hpp
+[71.542s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__builder.hpp
+[71.543s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__traits.hpp
+[71.543s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__traits.hpp
+[71.543s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__builder.hpp
+[71.543s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__traits.hpp
+[71.543s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__traits.hpp
+[71.544s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__struct.hpp
+[71.544s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__traits.hpp
+[71.544s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__builder.hpp
+[71.544s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__struct.hpp
+[71.545s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__traits.hpp
+[71.545s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__struct.hpp
+[71.545s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__struct.hpp
+[71.545s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__builder.hpp
+[71.545s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__builder.hpp
+[71.545s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__builder.hpp
+[71.546s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__traits.hpp
+[71.546s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__struct.hpp
+[71.546s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__traits.hpp
+[71.546s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__builder.hpp
+[71.546s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__traits.hpp
+[71.546s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__struct.hpp
+[71.547s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__struct.hpp
+[71.547s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__struct.hpp
+[71.547s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__struct.hpp
+[71.547s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__traits.hpp
+[71.547s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__builder.hpp
+[71.548s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__builder.hpp
+[71.548s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__traits.hpp
+[71.548s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__builder.hpp
+[71.548s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__builder.hpp
+[71.548s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__struct.hpp
+[71.548s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__struct.hpp
+[71.549s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__builder.hpp
+[71.549s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__struct.hpp
+[71.549s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/track_visual.hpp
+[71.549s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/world_reset.hpp
+[71.549s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/entity.hpp
+[71.550s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/gui_camera.hpp
+[71.550s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/joint_wrench.hpp
+[71.550s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/entity_factory.hpp
+[71.550s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/string_vec.hpp
+[71.550s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/contacts.hpp
+[71.551s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/contact.hpp
+[71.551s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/light.hpp
+[71.551s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/video_record.hpp
+[71.551s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces
+[71.551s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv
+[71.552s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail
+[71.552s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[71.552s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__rosidl_typesupport_fastrtps_cpp.hpp
+[71.552s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__rosidl_typesupport_fastrtps_cpp.hpp
+[71.553s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/dds_fastrtps
+[71.553s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__rosidl_typesupport_fastrtps_cpp.hpp
+[71.553s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg
+[71.553s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail
+[71.553s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__rosidl_typesupport_fastrtps_cpp.hpp
+[71.554s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__rosidl_typesupport_fastrtps_cpp.hpp
+[71.554s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__rosidl_typesupport_fastrtps_cpp.hpp
+[71.554s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__rosidl_typesupport_fastrtps_cpp.hpp
+[71.555s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__rosidl_typesupport_fastrtps_cpp.hpp
+[71.555s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__rosidl_typesupport_fastrtps_cpp.hpp
+[71.555s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/dds_fastrtps
+[71.555s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__rosidl_typesupport_fastrtps_cpp.hpp
+[71.555s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__rosidl_typesupport_fastrtps_cpp.hpp
+[71.556s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__rosidl_typesupport_fastrtps_cpp.hpp
+[71.556s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__rosidl_typesupport_fastrtps_cpp.hpp
+[71.556s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__rosidl_typesupport_fastrtps_cpp.hpp
+[71.557s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[71.557s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[71.557s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[71.557s] -- Set runtime path of "/home/gordonc/alpha_test/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[71.558s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces
+[71.558s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv
+[71.558s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail
+[71.559s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_introspection_c.h
+[71.559s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__type_support.c
+[71.559s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__type_support.c
+[71.559s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__type_support.c
+[71.560s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__type_support.c
+[71.560s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__rosidl_typesupport_introspection_c.h
+[71.560s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__rosidl_typesupport_introspection_c.h
+[71.561s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__rosidl_typesupport_introspection_c.h
+[71.562s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg
+[71.562s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail
+[71.562s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__rosidl_typesupport_introspection_c.h
+[71.562s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__type_support.c
+[71.563s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__type_support.c
+[71.563s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__rosidl_typesupport_introspection_c.h
+[71.563s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__rosidl_typesupport_introspection_c.h
+[71.564s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[71.564s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__type_support.c
+[71.564s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__rosidl_typesupport_introspection_c.h
+[71.564s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__rosidl_typesupport_introspection_c.h
+[71.565s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__type_support.c
+[71.565s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__rosidl_typesupport_introspection_c.h
+[71.565s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__type_support.c
+[71.565s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__type_support.c
+[71.566s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__type_support.c
+[71.566s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__rosidl_typesupport_introspection_c.h
+[71.566s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__rosidl_typesupport_introspection_c.h
+[71.567s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__type_support.c
+[71.567s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__rosidl_typesupport_introspection_c.h
+[71.567s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__type_support.c
+[71.567s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__type_support.c
+[71.568s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__type_support.c
+[71.568s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__rosidl_typesupport_introspection_c.h
+[71.568s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__type_support.c
+[71.568s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__rosidl_typesupport_introspection_c.h
+[71.569s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[71.569s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_introspection_c.so
+[71.570s] -- Set runtime path of "/home/gordonc/alpha_test/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[71.570s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_c.so
+[71.570s] -- Set runtime path of "/home/gordonc/alpha_test/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_c.so" to ""
+[71.571s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces
+[71.571s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv
+[71.571s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail
+[71.572s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_introspection_cpp.hpp
+[71.572s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__type_support.cpp
+[71.572s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__rosidl_typesupport_introspection_cpp.hpp
+[71.573s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/set_entity_pose__type_support.cpp
+[71.573s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__type_support.cpp
+[71.573s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/delete_entity__rosidl_typesupport_introspection_cpp.hpp
+[71.574s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/spawn_entity__rosidl_typesupport_introspection_cpp.hpp
+[71.574s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/srv/detail/control_world__type_support.cpp
+[71.574s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg
+[71.574s] -- Up-to-date: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail
+[71.575s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__rosidl_typesupport_introspection_cpp.hpp
+[71.575s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contact__type_support.cpp
+[71.575s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__type_support.cpp
+[71.575s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__rosidl_typesupport_introspection_cpp.hpp
+[71.576s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__type_support.cpp
+[71.576s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/gui_camera__rosidl_typesupport_introspection_cpp.hpp
+[71.576s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__rosidl_typesupport_introspection_cpp.hpp
+[71.576s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/light__rosidl_typesupport_introspection_cpp.hpp
+[71.576s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[71.577s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__type_support.cpp
+[71.577s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__type_support.cpp
+[71.577s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity__type_support.cpp
+[71.577s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/track_visual__rosidl_typesupport_introspection_cpp.hpp
+[71.577s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__rosidl_typesupport_introspection_cpp.hpp
+[71.578s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__type_support.cpp
+[71.578s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/video_record__rosidl_typesupport_introspection_cpp.hpp
+[71.578s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/entity_factory__type_support.cpp
+[71.578s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__type_support.cpp
+[71.578s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__type_support.cpp
+[71.579s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/string_vec__rosidl_typesupport_introspection_cpp.hpp
+[71.579s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_reset__type_support.cpp
+[71.579s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/joint_wrench__type_support.cpp
+[71.579s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/world_control__rosidl_typesupport_introspection_cpp.hpp
+[71.579s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/include/ros_ign_interfaces/ros_ign_interfaces/msg/detail/contacts__rosidl_typesupport_introspection_cpp.hpp
+[71.580s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_introspection_cpp.so
+[71.580s] -- Set runtime path of "/home/gordonc/alpha_test/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[71.580s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_cpp.so
+[71.580s] -- Set runtime path of "/home/gordonc/alpha_test/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_typesupport_cpp.so" to ""
+[71.581s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/environment/pythonpath.sh
+[71.581s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/environment/pythonpath.dsv
+[71.581s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces-0.244.13-py3.10.egg-info
+[71.581s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces-0.244.13-py3.10.egg-info/dependency_links.txt
+[71.582s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces-0.244.13-py3.10.egg-info/top_level.txt
+[71.582s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces-0.244.13-py3.10.egg-info/SOURCES.txt
+[71.582s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces-0.244.13-py3.10.egg-info/PKG-INFO
+[71.582s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces
+[71.583s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/_ros_ign_interfaces_s.ep.rosidl_typesupport_c.c
+[71.583s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv
+[71.583s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_delete_entity_s.c
+[71.583s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_set_entity_pose.py
+[71.583s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/__init__.py
+[71.584s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_control_world.py
+[71.584s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_spawn_entity.py
+[71.584s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_delete_entity.py
+[71.584s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_spawn_entity_s.c
+[71.584s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_control_world_s.c
+[71.585s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_set_entity_pose_s.c
+[71.585s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/__init__.py
+[71.585s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[71.585s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[71.585s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/_ros_ign_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[71.586s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/libros_ign_interfaces__rosidl_generator_py.so
+[71.586s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg
+[71.586s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_contacts_s.c
+[71.586s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_entity_factory.py
+[71.586s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_contact_s.c
+[71.587s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_video_record_s.c
+[71.587s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_light_s.c
+[71.587s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_entity_s.c
+[71.587s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_gui_camera_s.c
+[71.587s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_track_visual.py
+[71.588s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_contacts.py
+[71.588s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_joint_wrench.py
+[71.588s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/__init__.py
+[71.588s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_world_reset.py
+[71.588s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_world_reset_s.c
+[71.589s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_entity.py
+[71.589s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_video_record.py
+[71.589s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_string_vec_s.c
+[71.589s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_string_vec.py
+[71.589s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_entity_factory_s.c
+[71.590s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_contact.py
+[71.590s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_world_control_s.c
+[71.590s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_light.py
+[71.590s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_gui_camera.py
+[71.590s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_track_visual_s.c
+[71.591s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_joint_wrench_s.c
+[71.591s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_world_control.py
+[71.591s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[71.591s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/_ros_ign_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[71.747s] Listing '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces'...
+[71.747s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/__init__.py'...
+[71.747s] Listing '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg'...
+[71.750s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/__init__.py'...
+[71.750s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_contact.py'...
+[71.751s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_contacts.py'...
+[71.751s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_entity.py'...
+[71.751s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_entity_factory.py'...
+[71.751s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_gui_camera.py'...
+[71.751s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_joint_wrench.py'...
+[71.752s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_light.py'...
+[71.752s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_string_vec.py'...
+[71.754s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_track_visual.py'...
+[71.755s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_video_record.py'...
+[71.755s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_world_control.py'...
+[71.755s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/msg/_world_reset.py'...
+[71.756s] Listing '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv'...
+[71.756s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/__init__.py'...
+[71.756s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_control_world.py'...
+[71.757s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_delete_entity.py'...
+[71.757s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_set_entity_pose.py'...
+[71.757s] Compiling '/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/srv/_spawn_entity.py'...
+[71.760s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[71.761s] -- Set runtime path of "/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[71.762s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[71.763s] -- Set runtime path of "/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[71.764s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[71.765s] -- Set runtime path of "/home/gordonc/alpha_test/install/ros_ign_interfaces/local/lib/python3.10/dist-packages/ros_ign_interfaces/ros_ign_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[71.766s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_generator_py.so
+[71.768s] -- Set runtime path of "/home/gordonc/alpha_test/install/ros_ign_interfaces/lib/libros_ign_interfaces__rosidl_generator_py.so" to ""
+[71.768s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/Contact.idl
+[71.769s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/Contacts.idl
+[71.769s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/Entity.idl
+[71.770s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/EntityFactory.idl
+[71.770s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/GuiCamera.idl
+[71.771s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/JointWrench.idl
+[71.771s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/Light.idl
+[71.772s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/StringVec.idl
+[71.772s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/TrackVisual.idl
+[71.773s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/VideoRecord.idl
+[71.773s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/WorldControl.idl
+[71.774s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/WorldReset.idl
+[71.775s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/ControlWorld.idl
+[71.775s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/DeleteEntity.idl
+[71.776s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/SetEntityPose.idl
+[71.776s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/SpawnEntity.idl
+[71.777s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/Contact.msg
+[71.778s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/Contacts.msg
+[71.778s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/Entity.msg
+[71.779s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/EntityFactory.msg
+[71.780s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/GuiCamera.msg
+[71.780s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/JointWrench.msg
+[71.781s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/Light.msg
+[71.782s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/StringVec.msg
+[71.782s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/TrackVisual.msg
+[71.783s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/VideoRecord.msg
+[71.784s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/WorldControl.msg
+[71.784s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/msg/WorldReset.msg
+[71.785s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/ControlWorld.srv
+[71.785s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/ControlWorld_Request.msg
+[71.786s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/ControlWorld_Response.msg
+[71.786s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/DeleteEntity.srv
+[71.787s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/DeleteEntity_Request.msg
+[71.787s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/DeleteEntity_Response.msg
+[71.788s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/SetEntityPose.srv
+[71.789s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/SetEntityPose_Request.msg
+[71.789s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/SetEntityPose_Response.msg
+[71.790s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/SpawnEntity.srv
+[71.790s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/SpawnEntity_Request.msg
+[71.791s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/srv/SpawnEntity_Response.msg
+[71.791s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ament_index/resource_index/package_run_dependencies/ros_ign_interfaces
+[71.792s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ament_index/resource_index/parent_prefix_path/ros_ign_interfaces
+[71.793s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/environment/ament_prefix_path.sh
+[71.793s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/environment/ament_prefix_path.dsv
+[71.794s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/environment/path.sh
+[71.794s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/environment/path.dsv
+[71.795s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/local_setup.bash
+[71.796s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/local_setup.sh
+[71.796s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/local_setup.zsh
+[71.797s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/local_setup.dsv
+[71.797s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/package.dsv
+[71.798s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ament_index/resource_index/packages/ros_ign_interfaces
+[71.798s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_generator_cExport.cmake
+[71.799s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_generator_cExport-noconfig.cmake
+[71.800s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[71.800s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[71.801s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_generator_cppExport.cmake
+[71.801s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[71.802s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[71.803s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[71.803s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[71.804s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfaces__rosidl_typesupport_cExport.cmake
+[71.804s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[71.805s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[71.805s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[71.806s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfaces__rosidl_typesupport_cppExport.cmake
+[71.807s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[71.807s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_generator_pyExport.cmake
+[71.808s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/export_ros_ign_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[71.808s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/rosidl_cmake-extras.cmake
+[71.809s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[71.810s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[71.810s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[71.811s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[71.811s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[71.812s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[71.812s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfacesConfig.cmake
+[71.813s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/cmake/ros_ign_interfacesConfig-version.cmake
+[71.813s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_interfaces/share/ros_ign_interfaces/package.xml
+[71.821s] Invoked command in '/home/gordonc/alpha_test/build/ros_ign_interfaces' returned '0': AMENT_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gordonc/alpha_test/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gordonc/alpha_test/build/ros_ign_interfaces

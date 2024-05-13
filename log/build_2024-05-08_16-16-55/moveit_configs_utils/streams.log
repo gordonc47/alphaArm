@@ -1,0 +1,55 @@
+[5.520s] Invoking command in '/home/gordonc/alpha_test/src/moveit2/moveit_configs_utils': PYTHONPATH=/home/gordonc/alpha_test/build/moveit_configs_utils/prefix_override:/home/gordonc/alpha_test/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/gordonc/alpha_test/build/moveit_configs_utils/build install --record /home/gordonc/alpha_test/build/moveit_configs_utils/install.log --single-version-externally-managed install_data
+[6.729s] running egg_info
+[6.731s] creating ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info
+[6.793s] writing ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/PKG-INFO
+[6.795s] writing dependency_links to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/dependency_links.txt
+[6.796s] writing requirements to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/requires.txt
+[6.797s] writing top-level names to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/top_level.txt
+[6.797s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[6.945s] reading manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[6.949s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[6.949s] running build
+[6.950s] running build_py
+[6.955s] creating /home/gordonc/alpha_test/build/moveit_configs_utils/build
+[6.958s] creating /home/gordonc/alpha_test/build/moveit_configs_utils/build/lib
+[6.958s] creating /home/gordonc/alpha_test/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[6.958s] copying moveit_configs_utils/launches.py -> /home/gordonc/alpha_test/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[6.959s] copying moveit_configs_utils/moveit_configs_builder.py -> /home/gordonc/alpha_test/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[6.959s] copying moveit_configs_utils/launch_utils.py -> /home/gordonc/alpha_test/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[6.959s] copying moveit_configs_utils/__init__.py -> /home/gordonc/alpha_test/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[6.960s] creating /home/gordonc/alpha_test/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[6.960s] copying moveit_configs_utils/substitutions/xacro.py -> /home/gordonc/alpha_test/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[6.960s] copying moveit_configs_utils/substitutions/__init__.py -> /home/gordonc/alpha_test/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[6.961s] running install
+[6.982s] running install_lib
+[7.049s] creating /home/gordonc/alpha_test/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[7.049s] copying /home/gordonc/alpha_test/build/moveit_configs_utils/build/lib/moveit_configs_utils/launches.py -> /home/gordonc/alpha_test/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[7.050s] copying /home/gordonc/alpha_test/build/moveit_configs_utils/build/lib/moveit_configs_utils/moveit_configs_builder.py -> /home/gordonc/alpha_test/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[7.050s] copying /home/gordonc/alpha_test/build/moveit_configs_utils/build/lib/moveit_configs_utils/launch_utils.py -> /home/gordonc/alpha_test/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[7.050s] copying /home/gordonc/alpha_test/build/moveit_configs_utils/build/lib/moveit_configs_utils/__init__.py -> /home/gordonc/alpha_test/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[7.051s] creating /home/gordonc/alpha_test/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[7.051s] copying /home/gordonc/alpha_test/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/xacro.py -> /home/gordonc/alpha_test/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[7.051s] copying /home/gordonc/alpha_test/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/__init__.py -> /home/gordonc/alpha_test/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[7.053s] byte-compiling /home/gordonc/alpha_test/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launches.py to launches.cpython-310.pyc
+[7.058s] byte-compiling /home/gordonc/alpha_test/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/moveit_configs_builder.py to moveit_configs_builder.cpython-310.pyc
+[7.066s] byte-compiling /home/gordonc/alpha_test/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launch_utils.py to launch_utils.cpython-310.pyc
+[7.067s] byte-compiling /home/gordonc/alpha_test/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/__init__.py to __init__.cpython-310.pyc
+[7.068s] byte-compiling /home/gordonc/alpha_test/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions/xacro.py to xacro.cpython-310.pyc
+[7.070s] byte-compiling /home/gordonc/alpha_test/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions/__init__.py to __init__.cpython-310.pyc
+[7.071s] running install_data
+[7.073s] creating /home/gordonc/alpha_test/install/moveit_configs_utils/share/ament_index
+[7.073s] creating /home/gordonc/alpha_test/install/moveit_configs_utils/share/ament_index/resource_index
+[7.073s] creating /home/gordonc/alpha_test/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[7.073s] copying resource/moveit_configs_utils -> /home/gordonc/alpha_test/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[7.074s] copying package.xml -> /home/gordonc/alpha_test/install/moveit_configs_utils/share/moveit_configs_utils
+[7.074s] creating /home/gordonc/alpha_test/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[7.074s] copying default_configs/stomp_planning.yaml -> /home/gordonc/alpha_test/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[7.075s] copying default_configs/chomp_planning.yaml -> /home/gordonc/alpha_test/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[7.075s] copying default_configs/pilz_industrial_motion_planner_planning.yaml -> /home/gordonc/alpha_test/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[7.076s] copying default_configs/ompl_planning.yaml -> /home/gordonc/alpha_test/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[7.076s] copying default_configs/ompl_defaults.yaml -> /home/gordonc/alpha_test/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[7.076s] running install_egg_info
+[7.141s] Copying ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info to /home/gordonc/alpha_test/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils-2.9.0-py3.10.egg-info
+[7.144s] running install_scripts
+[7.734s] writing list of installed files to '/home/gordonc/alpha_test/build/moveit_configs_utils/install.log'
+[7.811s] Invoked command in '/home/gordonc/alpha_test/src/moveit2/moveit_configs_utils' returned '0': PYTHONPATH=/home/gordonc/alpha_test/build/moveit_configs_utils/prefix_override:/home/gordonc/alpha_test/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/gordonc/alpha_test/build/moveit_configs_utils/build install --record /home/gordonc/alpha_test/build/moveit_configs_utils/install.log --single-version-externally-managed install_data

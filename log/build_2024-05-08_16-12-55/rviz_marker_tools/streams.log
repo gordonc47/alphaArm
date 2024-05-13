@@ -1,0 +1,84 @@
+[0.125s] Invoking command in '/home/gordonc/alpha_test/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake /home/gordonc/alpha_test/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_INSTALL_PREFIX=/home/gordonc/alpha_test/install/rviz_marker_tools
+[0.522s] -- The C compiler identification is GNU 11.4.0
+[0.939s] -- The CXX compiler identification is GNU 11.4.0
+[0.980s] -- Detecting C compiler ABI info
+[1.240s] -- Detecting C compiler ABI info - done
+[1.261s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[1.263s] -- Detecting C compile features
+[1.265s] -- Detecting C compile features - done
+[1.279s] -- Detecting CXX compiler ABI info
+[1.666s] -- Detecting CXX compiler ABI info - done
+[1.698s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.699s] -- Detecting CXX compile features
+[1.700s] -- Detecting CXX compile features - done
+[1.725s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.201s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.749s] -- Found moveit_common: 2.5.5 (/opt/ros/humble/share/moveit_common/cmake)
+[4.031s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[4.062s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[4.063s] -- BACKWARD_HAS_UNWIND=1
+[4.063s] -- BACKWARD_HAS_BACKTRACE=0
+[4.063s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[4.063s] -- BACKWARD_HAS_DW=1
+[4.063s] -- BACKWARD_HAS_BFD=0
+[4.064s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[4.064s] [0mrviz_marker_tools: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[4.086s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.128s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.151s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.414s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.466s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.530s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.595s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.712s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.136s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[5.436s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.463s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.892s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.981s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.197s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.309s] -- Looking for pthread.h
+[6.619s] -- Looking for pthread.h - found
+[6.619s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.942s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.945s] -- Found Threads: TRUE  
+[7.500s] -- Found tf2_eigen: 0.25.6 (/opt/ros/humble/share/tf2_eigen/cmake)
+[8.951s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[9.822s] -- Configuring done
+[9.863s] -- Generating done
+[9.868s] -- Build files have been written to: /home/gordonc/alpha_test/build/rviz_marker_tools
+[9.896s] Invoked command in '/home/gordonc/alpha_test/build/rviz_marker_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake /home/gordonc/alpha_test/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_INSTALL_PREFIX=/home/gordonc/alpha_test/install/rviz_marker_tools
+[9.902s] Invoking command in '/home/gordonc/alpha_test/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/rviz_marker_tools -- -j8 -l8
+[10.079s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_marker_tools.dir/src/marker_creation.cpp.o[0m
+[33.158s] [100%] [32m[1mLinking CXX shared library librviz_marker_tools.so[0m
+[33.949s] [100%] Built target rviz_marker_tools
+[34.065s] Invoked command in '/home/gordonc/alpha_test/build/rviz_marker_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/rviz_marker_tools -- -j8 -l8
+[34.430s] Invoking command in '/home/gordonc/alpha_test/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/rviz_marker_tools
+[34.492s] -- Install configuration: "Release"
+[34.494s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/include
+[34.497s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/include/rviz_marker_tools
+[34.500s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/include/rviz_marker_tools/marker_creation.h
+[34.511s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/lib/librviz_marker_tools.so
+[34.512s] -- Set runtime path of "/home/gordonc/alpha_test/install/rviz_marker_tools/lib/librviz_marker_tools.so" to ""
+[34.512s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.sh
+[34.512s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.dsv
+[34.513s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/ament_index/resource_index/package_run_dependencies/rviz_marker_tools
+[34.513s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/ament_index/resource_index/parent_prefix_path/rviz_marker_tools
+[34.515s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.sh
+[34.515s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.dsv
+[34.515s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.sh
+[34.516s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.dsv
+[34.518s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.bash
+[34.519s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.sh
+[34.519s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.zsh
+[34.520s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.dsv
+[34.520s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/package.dsv
+[34.527s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/ament_index/resource_index/packages/rviz_marker_tools
+[34.533s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport.cmake
+[34.533s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport-release.cmake
+[34.534s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_targets-extras.cmake
+[34.534s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.535s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig.cmake
+[34.535s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig-version.cmake
+[34.540s] -- Installing: /home/gordonc/alpha_test/install/rviz_marker_tools/share/rviz_marker_tools/package.xml
+[34.566s] Invoked command in '/home/gordonc/alpha_test/build/rviz_marker_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/rviz_marker_tools

@@ -1,0 +1,4 @@
+source;share/alpha_hardware/local_setup.bash
+source;share/alpha_hardware/local_setup.dsv
+source;share/alpha_hardware/local_setup.sh
+source;share/alpha_hardware/local_setup.zsh

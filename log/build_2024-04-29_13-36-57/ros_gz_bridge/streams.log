@@ -1,0 +1,29 @@
+[0.033s] Invoking command in '/home/gordonc/alpha_test/build/ros_gz_bridge': CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces:/home/gordonc/alpha_test/install/ros_ign_interfaces:/home/gordonc/alpha_test/install/ros_ign_gazebo:/home/gordonc/alpha_test/install/ros_gz_sim:/home/gordonc/alpha_test/install/ros2_shared:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/gordonc/alpha_test/install/ros_gz_interfaces/lib:/home/gordonc/alpha_test/install/ros_ign_interfaces/lib:/home/gordonc/alpha_test/install/ros_gz_sim/lib:/home/gordonc/alpha_test/install/alpha_hardware/lib:/home/gordonc/alpha_test/install/alpha_driver/lib:/home/gordonc/colcon_ws/install/ros_ign_interfaces/lib:/home/gordonc/colcon_ws/install/ros_gz_sim/lib:/home/gordonc/colcon_ws/install/ros_gz_bridge/lib:/home/gordonc/colcon_ws/install/ros_gz_interfaces/lib:/home/gordonc/colcon_ws/install/orca_nav2/lib:/home/gordonc/colcon_ws/install/orca_shared/lib:/home/gordonc/colcon_ws/install/orca_msgs/lib:/home/gordonc/colcon_ws/install/orb_slam2_ros/lib:/home/gordonc/colcon_ws/install/blue_dynamics/lib:/home/gordonc/colcon_ws/install/alpha_hardware/lib:/home/gordonc/colcon_ws/install/alpha_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/gordonc/alpha_test/build/ros_gz_bridge -- -j8 -l8
+[0.131s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.131s] [35m[1mConsolidate compiler generated dependencies of target bridge_node[0m
+[0.133s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.178s] [  2%] Built target gtest_main
+[0.181s] [  4%] Built target gtest
+[0.194s] [35m[1mConsolidate compiler generated dependencies of target ros_gz_bridge[0m
+[0.199s] [  6%] Built target bridge_node
+[0.218s] [35m[1mConsolidate compiler generated dependencies of target test_rcl_interfaces[0m
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target test_utils[0m
+[0.274s] [ 10%] Built target test_rcl_interfaces
+[0.316s] [ 13%] Built target test_utils
+[0.385s] [35m[1mConsolidate compiler generated dependencies of target test_gz_publisher[0m
+[0.397s] [35m[1mConsolidate compiler generated dependencies of target test_gz_server[0m
+[0.400s] [35m[1mConsolidate compiler generated dependencies of target test_ros_client[0m
+[0.421s] [35m[1mConsolidate compiler generated dependencies of target test_gz_subscriber[0m
+[0.436s] [ 14%] [32mBuilding CXX object CMakeFiles/test_ros_publisher.dir/generated/test/ros_publisher.cpp.o[0m
+[0.481s] [ 15%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/test/subscribers/ros_subscriber.cpp.o[0m
+[0.492s] [ 18%] Built target test_ros_client
+[0.495s] [ 19%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/builtin_interfaces_subscriber.cpp.o[0m
+[0.496s] [ 20%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/geometry_msgs.cpp.o[0m
+[0.521s] [ 22%] Built target test_gz_server
+[0.521s] [ 26%] Built target test_gz_publisher
+[0.540s] [ 27%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/nav_msgs.cpp.o[0m
+[0.546s] [ 30%] Built target test_gz_subscriber
+[0.550s] [ 32%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/rcl_interfaces.cpp.o[0m
+[0.550s] [ 32%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/actuator_msgs_subscriber.cpp.o[0m
+[0.587s] [ 34%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/ros_gz_interfaces.cpp.o[0m
+[17.748s] [ 35%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/geometry_msgs_subscriber.cpp.o[0m

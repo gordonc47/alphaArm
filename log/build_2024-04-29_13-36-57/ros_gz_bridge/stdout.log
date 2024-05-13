@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target bridge_node[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[  2%] Built target gtest_main
+[  4%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target ros_gz_bridge[0m
+[  6%] Built target bridge_node
+[35m[1mConsolidate compiler generated dependencies of target test_rcl_interfaces[0m
+[35m[1mConsolidate compiler generated dependencies of target test_utils[0m
+[ 10%] Built target test_rcl_interfaces
+[ 13%] Built target test_utils
+[35m[1mConsolidate compiler generated dependencies of target test_gz_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target test_gz_server[0m
+[35m[1mConsolidate compiler generated dependencies of target test_ros_client[0m
+[35m[1mConsolidate compiler generated dependencies of target test_gz_subscriber[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/test_ros_publisher.dir/generated/test/ros_publisher.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/test/subscribers/ros_subscriber.cpp.o[0m
+[ 18%] Built target test_ros_client
+[ 19%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/builtin_interfaces_subscriber.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/geometry_msgs.cpp.o[0m
+[ 22%] Built target test_gz_server
+[ 26%] Built target test_gz_publisher
+[ 27%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/nav_msgs.cpp.o[0m
+[ 30%] Built target test_gz_subscriber
+[ 32%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/rcl_interfaces.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/actuator_msgs_subscriber.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/ros_gz_interfaces.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/geometry_msgs_subscriber.cpp.o[0m

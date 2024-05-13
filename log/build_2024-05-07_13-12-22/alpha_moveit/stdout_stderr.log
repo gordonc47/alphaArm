@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target alpha_moveit[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o[0m
+[01m[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:31:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kmove_group_interface[m[K’
+   31 |   [01;31m[Kmove_group_interface[m[K.setPoseTarget(0.2, 0.2, 0.2, endEffector);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/alpha_moveit.dir/build.make:76: CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/alpha_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

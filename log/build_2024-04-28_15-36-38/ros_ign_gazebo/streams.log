@@ -1,0 +1,275 @@
+[0.022s] Invoking command in '/home/gordonc/alpha_test/build/ros_ign_gazebo': AMENT_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_sim:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/gordonc/alpha_test/install/ros_gz_sim/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/gordonc/alpha_test/src/ros_gz/ros_ign_gazebo -DCMAKE_INSTALL_PREFIX=/home/gordonc/alpha_test/install/ros_ign_gazebo
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.211s] -- The CXX compiler identification is GNU 11.4.0
+[0.226s] -- Detecting C compiler ABI info
+[0.327s] -- Detecting C compiler ABI info - done
+[0.338s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.339s] -- Detecting C compile features
+[0.339s] -- Detecting C compile features - done
+[0.344s] -- Detecting CXX compiler ABI info
+[0.463s] -- Detecting CXX compiler ABI info - done
+[0.474s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.475s] -- Detecting CXX compile features
+[0.475s] -- Detecting CXX compile features - done
+[0.491s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.072s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.309s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.324s] -- Looking for gz-sim7 -- found version 7.7.0
+[1.342s] -- Searching for dependencies of gz-sim7
+[1.354s] -- Looking for sdformat13 -- found version 13.6.0
+[1.355s] -- Searching for dependencies of sdformat13
+[1.364s] -- Checking for module 'tinyxml2'
+[1.389s] --   Found tinyxml2, version 9.0.0
+[1.493s] -- Looking for gz-math7 -- found version 7.4.0
+[1.493s] -- Searching for dependencies of gz-math7
+[1.507s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.508s] -- Searching for dependencies of gz-utils2
+[1.511s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.512s] -- Searching for dependencies of gz-utils2
+[1.513s] -- Searching for <gz-utils2> component [cli]
+[1.526s] -- Looking for gz-utils2-cli -- found version 2.2.0
+[1.527s] -- Searching for dependencies of gz-utils2-cli
+[1.543s] -- Looking for gz-plugin2 -- found version 2.0.3
+[1.544s] -- Searching for dependencies of gz-plugin2
+[1.545s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.546s] -- Searching for <gz-plugin2> component [loader]
+[1.560s] -- Looking for gz-plugin2-loader -- found version 2.0.3
+[1.562s] -- Searching for dependencies of gz-plugin2-loader
+[1.562s] -- Searching for <gz-plugin2> component [register]
+[1.578s] -- Looking for gz-plugin2-register -- found version 2.0.3
+[1.579s] -- Searching for dependencies of gz-plugin2-register
+[1.597s] -- Looking for gz-transport12 -- found version 12.2.1
+[1.598s] -- Searching for dependencies of gz-transport12
+[1.966s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.996s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.003s] -- Checking for module 'libzmq >= 4'
+[2.031s] --   Found libzmq , version 4.3.4
+[2.095s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.105s] -- Checking for module 'uuid'
+[2.130s] --   Found uuid, version 2.37.2
+[2.188s] -- Found UUID: TRUE  
+[2.189s] -- Looking for gz-utils2 -- found version 2.2.0
+[2.200s] -- Looking for gz-msgs9 -- found version 9.5.0
+[2.201s] -- Searching for dependencies of gz-msgs9
+[2.240s] -- Looking for gz-math7 -- found version 7.4.0
+[2.250s] -- Searching for <gz-transport12> component [log]
+[2.262s] -- Looking for gz-transport12-log -- found version 12.2.1
+[2.262s] -- Searching for dependencies of gz-transport12-log
+[2.263s] -- Searching for <gz-transport12> component [parameters]
+[2.275s] -- Looking for gz-transport12-parameters -- found version 12.2.1
+[2.276s] -- Searching for dependencies of gz-transport12-parameters
+[2.277s] -- Looking for gz-msgs9 -- found version 9.5.0
+[2.289s] -- Looking for gz-common5 -- found version 5.5.1
+[2.289s] -- Searching for dependencies of gz-common5
+[2.290s] -- Looking for gz-utils2 -- found version 2.2.0
+[2.291s] -- Looking for dlfcn.h - found
+[2.293s] -- Looking for libdl - found
+[2.295s] -- Found DL: TRUE  
+[2.306s] -- Searching for <gz-common5> component [profiler]
+[2.318s] -- Looking for gz-common5-profiler -- found version 5.5.1
+[2.319s] -- Searching for dependencies of gz-common5-profiler
+[2.319s] -- Searching for <gz-common5> component [events]
+[2.330s] -- Looking for gz-common5-events -- found version 5.5.1
+[2.331s] -- Searching for dependencies of gz-common5-events
+[2.332s] -- Looking for gz-math7 -- found version 7.4.0
+[2.333s] -- Searching for <gz-common5> component [av]
+[2.344s] -- Looking for gz-common5-av -- found version 5.5.1
+[2.345s] -- Searching for dependencies of gz-common5-av
+[2.353s] -- Checking for module 'libswscale'
+[2.379s] --   Found libswscale, version 5.9.100
+[2.438s] -- Found SWSCALE: TRUE  
+[2.445s] -- Checking for module 'libavdevice >= 56.4.100'
+[2.473s] --   Found libavdevice , version 58.13.100
+[2.540s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[2.549s] -- Checking for module 'libavformat'
+[2.574s] --   Found libavformat, version 58.76.100
+[2.637s] -- Found AVFORMAT: TRUE  
+[2.646s] -- Checking for module 'libavcodec'
+[2.672s] --   Found libavcodec, version 58.134.100
+[2.736s] -- Found AVCODEC: TRUE  
+[2.745s] -- Checking for module 'libavutil'
+[2.770s] --   Found libavutil, version 56.70.100
+[2.831s] -- Found AVUTIL: TRUE  
+[2.831s] -- Searching for <gz-common5> component [io]
+[2.843s] -- Looking for gz-common5-io -- found version 5.5.1
+[2.844s] -- Searching for dependencies of gz-common5-io
+[2.856s] -- Looking for gz-fuel_tools8 -- found version 8.1.0
+[2.857s] -- Searching for dependencies of gz-fuel_tools8
+[3.009s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[3.031s] -- Checking for module 'jsoncpp'
+[3.057s] --   Found jsoncpp, version 1.9.5
+[3.117s] -- Found JSONCPP: TRUE  
+[3.133s] -- Checking for module 'libzip'
+[3.159s] --   Found libzip, version 1.7.3
+[3.221s] -- Found ZIP: TRUE  
+[3.222s] -- Looking for gz-utils2 -- found version 2.2.0
+[3.223s] -- Looking for gz-common5 -- found version 5.5.1
+[3.224s] -- Searching for dependencies of gz-common5
+[3.225s] -- Looking for gz-utils2 -- found version 2.2.0
+[3.225s] -- Looking for dlfcn.h - found
+[3.226s] -- Looking for libdl - found
+[3.239s] -- Searching for <gz-common5> component [testing]
+[3.253s] -- Looking for gz-common5-testing -- found version 5.5.1
+[3.254s] -- Searching for dependencies of gz-common5-testing
+[3.256s] -- Looking for gz-math7 -- found version 7.4.0
+[3.257s] -- Looking for gz-msgs9 -- found version 9.5.0
+[3.272s] -- Looking for gz-gui7 -- found version 7.2.1
+[3.272s] -- Searching for dependencies of gz-gui7
+[3.332s] -- Looking for gz-utils2 -- found version 2.2.0
+[3.333s] -- Looking for gz-math7 -- found version 7.4.0
+[3.334s] -- Looking for gz-common5 -- found version 5.5.1
+[3.335s] -- Looking for gz-plugin2 -- found version 2.0.3
+[3.335s] -- Looking for gz-transport12 -- found version 12.2.1
+[3.348s] -- Looking for gz-rendering7 -- found version 7.4.2
+[3.349s] -- Searching for dependencies of gz-rendering7
+[3.350s] -- Looking for gz-math7 -- found version 7.4.0
+[3.351s] -- Searching for dependencies of gz-math7
+[3.352s] -- Looking for gz-utils2 -- found version 2.2.0
+[3.352s] -- Searching for <gz-math7> component [eigen3]
+[3.365s] -- Looking for gz-math7-eigen3 -- found version 7.4.0
+[3.366s] -- Searching for dependencies of gz-math7-eigen3
+[3.390s] -- Looking for gz-common5 -- found version 5.5.1
+[3.391s] -- Searching for dependencies of gz-common5
+[3.392s] -- Looking for gz-utils2 -- found version 2.2.0
+[3.392s] -- Looking for dlfcn.h - found
+[3.392s] -- Looking for libdl - found
+[3.408s] -- Searching for <gz-common5> component [graphics]
+[3.421s] -- Looking for gz-common5-graphics -- found version 5.5.1
+[3.422s] -- Searching for dependencies of gz-common5-graphics
+[3.423s] -- Looking for gz-math7 -- found version 7.4.0
+[3.452s] -- Found GzAssimp: TRUE (found version "5.2.0") 
+[3.453s] -- Searching for <gz-common5> component [events]
+[3.454s] -- Searching for <gz-common5> component [geospatial]
+[3.466s] -- Looking for gz-common5-geospatial -- found version 5.5.1
+[3.467s] -- Searching for dependencies of gz-common5-geospatial
+[3.468s] -- Looking for gz-math7 -- found version 7.4.0
+[3.469s] -- Looking for gz-common5 -- found version 5.5.1
+[3.471s] -- Looking for gz-plugin2 -- found version 2.0.3
+[3.472s] -- Searching for dependencies of gz-plugin2
+[3.473s] -- Looking for gz-utils2 -- found version 2.2.0
+[3.473s] -- Searching for <gz-plugin2> component [all]
+[3.488s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.3
+[3.488s] -- Looking for gz-plugin2 -- found version 2.0.3
+[3.491s] -- Looking for gz-utils2 -- found version 2.2.0
+[3.504s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[3.506s] -- Looking for gz-msgs9 -- found version 9.5.0
+[3.564s] -- Looking for gz-physics6 -- found version 6.5.1
+[3.565s] -- Searching for dependencies of gz-physics6
+[3.566s] -- Looking for gz-math7 -- found version 7.4.0
+[3.567s] -- Looking for gz-plugin2 -- found version 2.0.3
+[3.568s] -- Looking for gz-utils2 -- found version 2.2.0
+[3.570s] -- Searching for <gz-physics6> component [heightmap]
+[3.583s] -- Looking for gz-physics6-heightmap -- found version 6.5.1
+[3.584s] -- Searching for dependencies of gz-physics6-heightmap
+[3.585s] -- Looking for gz-common5 -- found version 5.5.1
+[3.586s] -- Searching for <gz-physics6> component [mesh]
+[3.619s] -- Looking for gz-physics6-mesh -- found version 6.5.1
+[3.621s] -- Searching for dependencies of gz-physics6-mesh
+[3.621s] -- Looking for gz-common5 -- found version 5.5.1
+[3.621s] -- Searching for <gz-physics6> component [sdf]
+[3.628s] -- Looking for gz-physics6-sdf -- found version 6.5.1
+[3.629s] -- Searching for dependencies of gz-physics6-sdf
+[3.630s] -- Looking for sdformat13 -- found version 13.6.0
+[3.647s] -- Looking for gz-sensors7 -- found version 7.3.0
+[3.647s] -- Searching for dependencies of gz-sensors7
+[3.692s] -- Looking for gz-math7 -- found version 7.4.0
+[3.693s] -- Looking for gz-common5 -- found version 5.5.1
+[3.693s] -- Looking for gz-transport12 -- found version 12.2.1
+[3.694s] -- Looking for gz-rendering7 -- found version 7.4.2
+[3.695s] -- Looking for gz-msgs9 -- found version 9.5.0
+[3.696s] -- Looking for sdformat13 -- found version 13.6.0
+[3.697s] -- Searching for <gz-sensors7> component [air_pressure]
+[3.709s] -- Looking for gz-sensors7-air_pressure -- found version 7.3.0
+[3.710s] -- Searching for dependencies of gz-sensors7-air_pressure
+[3.711s] -- Searching for <gz-sensors7> component [air_speed]
+[3.723s] -- Looking for gz-sensors7-air_speed -- found version 7.3.0
+[3.724s] -- Searching for dependencies of gz-sensors7-air_speed
+[3.725s] -- Searching for <gz-sensors7> component [altimeter]
+[3.736s] -- Looking for gz-sensors7-altimeter -- found version 7.3.0
+[3.737s] -- Searching for dependencies of gz-sensors7-altimeter
+[3.738s] -- Searching for <gz-sensors7> component [imu]
+[3.750s] -- Looking for gz-sensors7-imu -- found version 7.3.0
+[3.751s] -- Searching for dependencies of gz-sensors7-imu
+[3.751s] -- Searching for <gz-sensors7> component [force_torque]
+[3.763s] -- Looking for gz-sensors7-force_torque -- found version 7.3.0
+[3.764s] -- Searching for dependencies of gz-sensors7-force_torque
+[3.765s] -- Searching for <gz-sensors7> component [logical_camera]
+[3.776s] -- Looking for gz-sensors7-logical_camera -- found version 7.3.0
+[3.777s] -- Searching for dependencies of gz-sensors7-logical_camera
+[3.778s] -- Searching for <gz-sensors7> component [magnetometer]
+[3.790s] -- Looking for gz-sensors7-magnetometer -- found version 7.3.0
+[3.791s] -- Searching for dependencies of gz-sensors7-magnetometer
+[3.791s] -- Searching for <gz-sensors7> component [navsat]
+[3.803s] -- Looking for gz-sensors7-navsat -- found version 7.3.0
+[3.804s] -- Searching for dependencies of gz-sensors7-navsat
+[3.805s] -- Searching for <gz-sensors7> component [rendering]
+[3.816s] -- Looking for gz-sensors7-rendering -- found version 7.3.0
+[3.817s] -- Searching for dependencies of gz-sensors7-rendering
+[3.818s] -- Searching for <gz-sensors7> component [lidar]
+[3.833s] -- Looking for gz-sensors7-lidar -- found version 7.3.0
+[3.834s] -- Searching for dependencies of gz-sensors7-lidar
+[3.835s] -- Looking for gz-sensors7 -- found version 7.3.0
+[3.836s] -- Searching for <gz-sensors7> component [gpu_lidar]
+[3.848s] -- Looking for gz-sensors7-gpu_lidar -- found version 7.3.0
+[3.849s] -- Searching for dependencies of gz-sensors7-gpu_lidar
+[3.850s] -- Looking for gz-sensors7 -- found version 7.3.0
+[3.851s] -- Searching for <gz-sensors7> component [camera]
+[3.864s] -- Looking for gz-sensors7-camera -- found version 7.3.0
+[3.865s] -- Searching for dependencies of gz-sensors7-camera
+[3.866s] -- Looking for gz-sensors7 -- found version 7.3.0
+[3.867s] -- Searching for <gz-sensors7> component [boundingbox_camera]
+[3.880s] -- Looking for gz-sensors7-boundingbox_camera -- found version 7.3.0
+[3.881s] -- Searching for dependencies of gz-sensors7-boundingbox_camera
+[3.882s] -- Searching for <gz-sensors7> component [segmentation_camera]
+[3.896s] -- Looking for gz-sensors7-segmentation_camera -- found version 7.3.0
+[3.896s] -- Searching for dependencies of gz-sensors7-segmentation_camera
+[3.897s] -- Searching for <gz-sensors7> component [depth_camera]
+[3.910s] -- Looking for gz-sensors7-depth_camera -- found version 7.3.0
+[3.910s] -- Searching for dependencies of gz-sensors7-depth_camera
+[3.911s] -- Looking for gz-sensors7 -- found version 7.3.0
+[3.912s] -- Searching for <gz-sensors7> component [rgbd_camera]
+[3.924s] -- Looking for gz-sensors7-rgbd_camera -- found version 7.3.0
+[3.925s] -- Searching for dependencies of gz-sensors7-rgbd_camera
+[3.925s] -- Looking for gz-sensors7 -- found version 7.3.0
+[3.926s] -- Searching for <gz-sensors7> component [thermal_camera]
+[3.938s] -- Looking for gz-sensors7-thermal_camera -- found version 7.3.0
+[3.939s] -- Searching for dependencies of gz-sensors7-thermal_camera
+[3.940s] -- Looking for gz-sensors7 -- found version 7.3.0
+[3.941s] -- Searching for <gz-sensors7> component [wide_angle_camera]
+[3.952s] -- Looking for gz-sensors7-wide_angle_camera -- found version 7.3.0
+[3.953s] -- Searching for dependencies of gz-sensors7-wide_angle_camera
+[3.955s] -- Looking for gz-rendering7 -- found version 7.4.2
+[3.955s] -- Looking for gz-math7 -- found version 7.4.0
+[3.956s] -- Looking for gz-utils2 -- found version 2.2.0
+[4.002s] -- Compiling against Gazebo Garden
+[4.111s] -- Configuring done
+[4.121s] -- Generating done
+[4.124s] -- Build files have been written to: /home/gordonc/alpha_test/build/ros_ign_gazebo
+[4.141s] Invoked command in '/home/gordonc/alpha_test/build/ros_ign_gazebo' returned '0': AMENT_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_sim:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/gordonc/alpha_test/install/ros_gz_sim/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/gordonc/alpha_test/src/ros_gz/ros_ign_gazebo -DCMAKE_INSTALL_PREFIX=/home/gordonc/alpha_test/install/ros_ign_gazebo
+[4.144s] Invoking command in '/home/gordonc/alpha_test/build/ros_ign_gazebo': AMENT_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_sim:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/gordonc/alpha_test/install/ros_gz_sim/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/gordonc/alpha_test/build/ros_ign_gazebo -- -j8 -l8
+[4.238s] [ 50%] [32mBuilding CXX object CMakeFiles/create.dir/src/create_shim.cpp.o[0m
+[4.700s] [100%] [32m[1mLinking CXX executable create[0m
+[4.867s] [100%] Built target create
+[4.900s] Invoked command in '/home/gordonc/alpha_test/build/ros_ign_gazebo' returned '0': AMENT_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_sim:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/gordonc/alpha_test/install/ros_gz_sim/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/gordonc/alpha_test/build/ros_ign_gazebo -- -j8 -l8
+[4.965s] Invoking command in '/home/gordonc/alpha_test/build/ros_ign_gazebo': AMENT_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_sim:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/gordonc/alpha_test/install/ros_gz_sim/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/gordonc/alpha_test/build/ros_ign_gazebo
+[4.980s] -- Install configuration: ""
+[4.980s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/share/ros_ign_gazebo/launch/ign_gazebo.launch.py
+[4.981s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/lib/ros_ign_gazebo/create
+[4.982s] -- Set runtime path of "/home/gordonc/alpha_test/install/ros_ign_gazebo/lib/ros_ign_gazebo/create" to ""
+[4.982s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/share/ament_index/resource_index/package_run_dependencies/ros_ign_gazebo
+[4.982s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/share/ament_index/resource_index/parent_prefix_path/ros_ign_gazebo
+[4.983s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/share/ros_ign_gazebo/environment/ament_prefix_path.sh
+[4.983s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/share/ros_ign_gazebo/environment/ament_prefix_path.dsv
+[4.983s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/share/ros_ign_gazebo/environment/path.sh
+[4.984s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/share/ros_ign_gazebo/environment/path.dsv
+[4.984s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/share/ros_ign_gazebo/local_setup.bash
+[4.984s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/share/ros_ign_gazebo/local_setup.sh
+[4.985s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/share/ros_ign_gazebo/local_setup.zsh
+[4.985s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/share/ros_ign_gazebo/local_setup.dsv
+[4.985s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/share/ros_ign_gazebo/package.dsv
+[4.986s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/share/ament_index/resource_index/packages/ros_ign_gazebo
+[4.986s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/share/ros_ign_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.986s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/share/ros_ign_gazebo/cmake/ros_ign_gazeboConfig.cmake
+[4.987s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/share/ros_ign_gazebo/cmake/ros_ign_gazeboConfig-version.cmake
+[4.987s] -- Installing: /home/gordonc/alpha_test/install/ros_ign_gazebo/share/ros_ign_gazebo/package.xml
+[4.991s] Invoked command in '/home/gordonc/alpha_test/build/ros_ign_gazebo' returned '0': AMENT_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gordonc/alpha_test/install/ros_gz_sim:/home/gordonc/alpha_test/install/alpha_bringup:/home/gordonc/alpha_test/install/alpha_hardware:/home/gordonc/alpha_test/install/alpha_driver:/home/gordonc/alpha_test/install/alpha_description:/home/gordonc/colcon_ws/install/test_ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_ign_interfaces:/home/gordonc/colcon_ws/install/ros_ign:/home/gordonc/colcon_ws/install/ros_ign_image:/home/gordonc/colcon_ws/install/ros_ign_gazebo_demos:/home/gordonc/colcon_ws/install/ros_ign_gazebo:/home/gordonc/colcon_ws/install/ros_ign_bridge:/home/gordonc/colcon_ws/install/ros_gz:/home/gordonc/colcon_ws/install/ros_gz_sim_demos:/home/gordonc/colcon_ws/install/ros_gz_sim:/home/gordonc/colcon_ws/install/ros_gz_image:/home/gordonc/colcon_ws/install/ros_gz_bridge:/home/gordonc/colcon_ws/install/ros_gz_interfaces:/home/gordonc/colcon_ws/install/orca_nav2:/home/gordonc/colcon_ws/install/orca_base:/home/gordonc/colcon_ws/install/orca_shared:/home/gordonc/colcon_ws/install/ros2_shared:/home/gordonc/colcon_ws/install/orca_msgs:/home/gordonc/colcon_ws/install/orca_description:/home/gordonc/colcon_ws/install/orca_bringup:/home/gordonc/colcon_ws/install/orb_slam2_ros:/home/gordonc/colcon_ws/install/bluerov2_ignition:/home/gordonc/colcon_ws/install/blue_control:/home/gordonc/colcon_ws/install/blue_dynamics:/home/gordonc/colcon_ws/install/blue_utils:/home/gordonc/colcon_ws/install/blue_description:/home/gordonc/colcon_ws/install/blue_bringup:/home/gordonc/colcon_ws/install/ardupilot_gazebo:/home/gordonc/colcon_ws/install/alpha_bringup:/home/gordonc/colcon_ws/install/alpha_hardware:/home/gordonc/colcon_ws/install/alpha_driver:/home/gordonc/colcon_ws/install/alpha_description:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/gordonc/alpha_test/install/ros_gz_sim/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/gordonc/alpha_test/build/ros_ign_gazebo

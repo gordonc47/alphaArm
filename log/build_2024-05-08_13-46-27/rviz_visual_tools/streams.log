@@ -1,0 +1,201 @@
+[0.054s] Invoking command in '/home/gordonc/alpha_test/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake /home/gordonc/alpha_test/src/rviz_visual_tools -DCMAKE_INSTALL_PREFIX=/home/gordonc/alpha_test/install/rviz_visual_tools
+[0.210s] -- The C compiler identification is GNU 11.4.0
+[0.347s] -- The CXX compiler identification is GNU 11.4.0
+[0.366s] -- Detecting C compiler ABI info
+[0.486s] -- Detecting C compiler ABI info - done
+[0.499s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.500s] -- Detecting C compile features
+[0.501s] -- Detecting C compile features - done
+[0.506s] -- Detecting CXX compiler ABI info
+[0.647s] -- Detecting CXX compiler ABI info - done
+[0.661s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.661s] -- Detecting CXX compile features
+[0.662s] -- Detecting CXX compile features - done
+[0.676s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.261s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.478s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.601s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.621s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.645s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.675s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.721s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.871s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.881s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.095s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.153s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.232s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.265s] -- Looking for pthread.h
+[2.432s] -- Looking for pthread.h - found
+[2.433s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.596s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.598s] -- Found Threads: TRUE  
+[2.846s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.961s] -- Found rviz_ogre_vendor: 11.2.12 (/opt/ros/humble/share/rviz_ogre_vendor/cmake)
+[2.962s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.964s] -- Found OGRE
+[2.965s] --   static     : OFF
+[2.965s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.965s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.965s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.965s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.965s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[2.965s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.966s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[2.966s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.966s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.966s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.966s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.969s] -- Could not find freeimage library
+[3.003s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.013s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.192s] -- Found X11: /usr/include   
+[3.193s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.302s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.302s] -- Looking for gethostbyname
+[3.399s] -- Looking for gethostbyname - found
+[3.399s] -- Looking for connect
+[3.491s] -- Looking for connect - found
+[3.491s] -- Looking for remove
+[3.591s] -- Looking for remove - found
+[3.591s] -- Looking for shmat
+[3.688s] -- Looking for shmat - found
+[3.688s] -- Looking for IceConnectionNumber in ICE
+[3.785s] -- Looking for IceConnectionNumber in ICE - found
+[3.791s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[3.791s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[3.802s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.980s] -- Found shape_msgs: 4.2.3 (/opt/ros/humble/share/shape_msgs/cmake)
+[4.056s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[4.213s] -- Found trajectory_msgs: 4.2.3 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[4.326s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.335s] -- Found eigen_stl_containers: 1.0.0 (/opt/ros/humble/share/eigen_stl_containers/cmake)
+[4.356s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.362s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.373s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[4.390s] -- Found tf2_eigen: 0.25.6 (/opt/ros/humble/share/tf2_eigen/cmake)
+[4.785s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.813s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.831s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[4.878s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[4.900s] -- Found rviz_common: 11.2.12 (/opt/ros/humble/share/rviz_common/cmake)
+[5.123s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[5.262s] -- Found rviz_default_plugins: 11.2.12 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[5.963s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.972s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.074s] -- Configuring done
+[6.211s] -- Generating done
+[6.217s] -- Build files have been written to: /home/gordonc/alpha_test/build/rviz_visual_tools
+[6.238s] Invoked command in '/home/gordonc/alpha_test/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake /home/gordonc/alpha_test/src/rviz_visual_tools -DCMAKE_INSTALL_PREFIX=/home/gordonc/alpha_test/install/rviz_visual_tools
+[6.240s] Invoking command in '/home/gordonc/alpha_test/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/rviz_visual_tools -- -j8 -l8
+[6.337s] [  5%] [34m[1mAutomatic MOC for target rviz_visual_tools_remote_control[0m
+[6.337s] [  7%] [34m[1mAutomatic MOC for target rviz_visual_tools_gui[0m
+[6.337s] [  7%] [34m[1mAutomatic MOC for target gtest_main[0m
+[6.338s] [ 10%] [34m[1mAutomatic MOC for target gtest[0m
+[6.378s] [ 10%] Built target gtest_main_autogen
+[6.380s] [ 10%] Built target gtest_autogen
+[6.390s] [ 10%] Built target rviz_visual_tools_remote_control_autogen
+[6.431s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.o[0m
+[6.434s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[6.434s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o[0m
+[6.436s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[6.456s] [ 25%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/rviz_visual_tools_remote_control_autogen/mocs_compilation.cpp.o[0m
+[6.459s] [ 25%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/src/remote_control.cpp.o[0m
+[6.787s] [ 28%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.854s] [ 30%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.984s] [ 30%] Built target rviz_visual_tools_gui_autogen
+[7.034s] [ 33%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/rviz_visual_tools_gui.cpp.o[0m
+[7.039s] [ 35%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/rviz_visual_tools_gui_autogen/mocs_compilation.cpp.o[0m
+[7.040s] [ 38%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o[0m
+[7.041s] [ 41%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/remote_control.cpp.o[0m
+[7.059s] [ 41%] Built target gtest_main
+[7.146s] [ 41%] Built target gtest
+[21.882s] [ 43%] [32m[1mLinking CXX shared library librviz_visual_tools_remote_control.so[0m
+[22.588s] [ 43%] Built target rviz_visual_tools_remote_control
+[22.627s] [ 46%] [34m[1mAutomatic MOC for target rviz_visual_tools[0m
+[22.667s] [ 46%] Built target rviz_visual_tools_autogen
+[22.708s] [ 51%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/rviz_visual_tools_autogen/mocs_compilation.cpp.o[0m
+[22.709s] [ 51%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/rviz_visual_tools.cpp.o[0m
+[22.709s] [ 53%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/tf_visual_tools.cpp.o[0m
+[25.197s] [ 56%] [32m[1mLinking CXX shared library librviz_visual_tools_gui.so[0m
+[28.649s] [ 56%] Built target rviz_visual_tools_gui
+[44.792s] [ 58%] [32m[1mLinking CXX shared library librviz_visual_tools.so[0m
+[45.707s] [ 58%] Built target rviz_visual_tools
+[45.752s] [ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple[0m
+[45.752s] [ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_rvt_test[0m
+[45.752s] [ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_demo[0m
+[45.794s] [ 66%] Built target rviz_visual_tools_demo_autogen
+[45.795s] [ 66%] Built target rviz_visual_tools_imarker_simple_autogen
+[45.795s] [ 66%] Built target rviz_visual_tools_rvt_test_autogen
+[45.843s] [ 69%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/src/imarker_simple.cpp.o[0m
+[45.843s] [ 71%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/rviz_visual_tools_rvt_test_autogen/mocs_compilation.cpp.o[0m
+[45.848s] [ 74%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/rviz_visual_tools_demo_autogen/mocs_compilation.cpp.o[0m
+[45.849s] [ 76%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/src/rviz_visual_tools_demo.cpp.o[0m
+[45.849s] [ 79%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/rviz_visual_tools_imarker_simple_autogen/mocs_compilation.cpp.o[0m
+[45.850s] [ 82%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/tests/rvt_test.cpp.o[0m
+[53.332s] [ 84%] [32m[1mLinking CXX shared library librviz_visual_tools_imarker_simple.so[0m
+[53.840s] [ 84%] Built target rviz_visual_tools_imarker_simple
+[53.884s] [ 87%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple_demo[0m
+[53.925s] [ 87%] Built target rviz_visual_tools_imarker_simple_demo_autogen
+[53.969s] [ 89%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/rviz_visual_tools_imarker_simple_demo_autogen/mocs_compilation.cpp.o[0m
+[53.970s] [ 92%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/src/imarker_simple_demo.cpp.o[0m
+[54.134s] [ 94%] [32m[1mLinking CXX executable rviz_visual_tools_demo[0m
+[54.699s] [ 94%] Built target rviz_visual_tools_demo
+[55.894s] [ 97%] [32m[1mLinking CXX executable rviz_visual_tools_rvt_test[0m
+[56.581s] [ 97%] Built target rviz_visual_tools_rvt_test
+[60.110s] [100%] [32m[1mLinking CXX executable rviz_visual_tools_imarker_simple_demo[0m
+[60.543s] [100%] Built target rviz_visual_tools_imarker_simple_demo
+[60.586s] Invoked command in '/home/gordonc/alpha_test/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/rviz_visual_tools -- -j8 -l8
+[60.816s] Invoking command in '/home/gordonc/alpha_test/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/rviz_visual_tools
+[60.831s] -- Install configuration: ""
+[60.831s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/plugin_description.xml
+[60.832s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/lib/librviz_visual_tools.so
+[60.852s] -- Set runtime path of "/home/gordonc/alpha_test/install/rviz_visual_tools/lib/librviz_visual_tools.so" to ""
+[60.853s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so
+[60.864s] -- Set runtime path of "/home/gordonc/alpha_test/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so" to ""
+[60.864s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so
+[60.878s] -- Set runtime path of "/home/gordonc/alpha_test/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so" to ""
+[60.878s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so
+[60.879s] -- Set runtime path of "/home/gordonc/alpha_test/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so" to ""
+[60.879s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo
+[60.882s] -- Set runtime path of "/home/gordonc/alpha_test/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo" to ""
+[60.882s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo
+[60.884s] -- Set runtime path of "/home/gordonc/alpha_test/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo" to ""
+[60.884s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/include
+[60.884s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/include/rviz_visual_tools
+[60.884s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp
+[60.885s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools_gui.hpp
+[60.885s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/include/rviz_visual_tools/imarker_simple.hpp
+[60.885s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/include/rviz_visual_tools/key_tool.hpp
+[60.885s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp
+[60.885s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/include/rviz_visual_tools/tf_visual_tools.hpp
+[60.885s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/include/rviz_visual_tools/remote_reciever.hpp
+[60.886s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/launch
+[60.886s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_rviz.launch.py
+[60.886s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_combined.launch.py
+[60.886s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/launch/rvt_test.launch
+[60.886s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo.rviz
+[60.887s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.sh
+[60.887s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.dsv
+[60.887s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/ament_index/resource_index/package_run_dependencies/rviz_visual_tools
+[60.888s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/ament_index/resource_index/parent_prefix_path/rviz_visual_tools
+[60.888s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.sh
+[60.888s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.dsv
+[60.888s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.sh
+[60.889s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.dsv
+[60.889s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.bash
+[60.889s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.sh
+[60.889s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.zsh
+[60.890s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.dsv
+[60.890s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/package.dsv
+[60.890s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/ament_index/resource_index/packages/rviz_visual_tools
+[60.891s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_visual_tools
+[60.891s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport.cmake
+[60.891s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport-noconfig.cmake
+[60.892s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_targets-extras.cmake
+[60.892s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[60.892s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+[60.893s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_libraries-extras.cmake
+[60.893s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake
+[60.893s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig-version.cmake
+[60.894s] -- Installing: /home/gordonc/alpha_test/install/rviz_visual_tools/share/rviz_visual_tools/package.xml
+[60.898s] Invoked command in '/home/gordonc/alpha_test/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/rviz_visual_tools

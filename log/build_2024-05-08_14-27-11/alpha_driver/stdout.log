@@ -1,0 +1,41 @@
+[ 19%] Built target gtest_main
+[ 19%] Built target gmock_main
+[ 38%] Built target gmock
+[ 42%] Built target gtest
+[ 71%] Built target alpha_driver
+[ 80%] Built target test_crc
+[ 90%] Built target test_cobs
+[100%] Built target test_packet
+-- Install configuration: ""
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/packet.hpp
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/mode.hpp
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/crc.hpp
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/cobs.hpp
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/device_id.hpp
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/serial_client.hpp
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/packet_id.hpp
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/driver.hpp
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/lib/libalpha_driver.so
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/library_path.sh
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/library_path.dsv
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/ament_index/resource_index/package_run_dependencies/alpha_driver
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/ament_index/resource_index/parent_prefix_path/alpha_driver
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/ament_prefix_path.sh
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/path.sh
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/path.dsv
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/local_setup.bash
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/local_setup.sh
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/local_setup.zsh
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/local_setup.dsv
+-- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/package.dsv
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/ament_index/resource_index/packages/alpha_driver
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/alpha_driverExport.cmake
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/alpha_driverExport-noconfig.cmake
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/alpha_driverConfig.cmake
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/alpha_driverConfig-version.cmake
+-- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/package.xml

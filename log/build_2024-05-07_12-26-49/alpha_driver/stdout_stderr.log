@@ -1,0 +1,8 @@
+[ 14%] Built target gtest
+[ 19%] Built target gmock_main
+[ 38%] Built target gmock
+[ 42%] Built target gtest_main
+[ 71%] Built target alpha_driver
+[ 80%] Built target test_crc
+[ 90%] Built target test_packet
+[100%] Built target test_cobs

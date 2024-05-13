@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target alpha_moveit[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o[0m
+[01m[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:65:49:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KEigen::Transform<double, 3, 1>[m[K’ and ‘[01m[Kint[m[K’)
+   65 |   move_group_interface.setPositionTarget(testmsg[01;31m[K[[m[K0], testmsg[1], testmsg[2]);
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:65:61:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KEigen::Transform<double, 3, 1>[m[K’ and ‘[01m[Kint[m[K’)
+   65 |   move_group_interface.setPositionTarget(testmsg[0], testmsg[01;31m[K[[m[K1], testmsg[2]);
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:65:73:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KEigen::Transform<double, 3, 1>[m[K’ and ‘[01m[Kint[m[K’)
+   65 |   move_group_interface.setPositionTarget(testmsg[0], testmsg[1], testmsg[01;31m[K[[m[K2]);
+      |                                                                         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/alpha_moveit.dir/build.make:76: CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/alpha_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
