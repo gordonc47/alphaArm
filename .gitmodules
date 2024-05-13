@@ -1,0 +1,9 @@
+[submodule "src/moveit_visual_tools"]
+	path = src/moveit_visual_tools
+	url = https://github.com/moveit/moveit_visual_tools
+[submodule "src/rviz_visual_tools"]
+	path = src/rviz_visual_tools
+	url = https://github.com/PickNikRobotics/rviz_visual_tools
+[submodule "src/alpha"]
+	path = src/alpha
+	url = https://github.com/Robotic-Decision-Making-Lab/alpha
