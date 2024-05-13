@@ -680,7 +680,7 @@ alpha_moveit_BINARY_DIR:STATIC=/home/gordonc/alpha_test/build/alpha_moveit
 alpha_moveit_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-alpha_moveit_SOURCE_DIR:STATIC=/home/gordonc/alpha_test/src/alpha/alpha_moveit
+alpha_moveit_SOURCE_DIR:STATIC=/home/gordonc/alpha_test/src/alpha_moveit
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
@@ -1295,7 +1295,7 @@ CMAKE_HAVE_REMOVE:INTERNAL=1
 CMAKE_HAVE_SHMAT:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/gordonc/alpha_test/src/alpha/alpha_moveit
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/gordonc/alpha_test/src/alpha_moveit
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //Have library ICE
@@ -1737,5 +1737,5 @@ pkgcfg_lib_PKG_FONTCONFIG_freetype-ADVANCED:INTERNAL=1
 pkgcfg_lib__OPENSSL_crypto-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_ssl
 pkgcfg_lib__OPENSSL_ssl-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
+prefix_result:INTERNAL=AsynchDNS;GSS-API;HSTS;HTTP2;HTTPS-proxy;IDN;IPv6;Kerberos;Largefile;NTLM;NTLM_WB;PSL;SPNEGO;SSL;TLS-SRP;UnixSockets;alt-svc;brotli;libz;zstd
 

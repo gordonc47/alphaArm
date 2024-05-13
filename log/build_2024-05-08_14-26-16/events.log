@@ -511,22 +511,22 @@
 [18.577811] (-) TimerEvent: {}
 [18.678235] (-) TimerEvent: {}
 [18.778591] (-) TimerEvent: {}
-[18.866180] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
-[18.866421] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:68:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.866180] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.866421] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:68:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99\n'}
 [18.866524] (alpha_moveit) StderrLine: {'line': b'   68 |   moveit_visual_tools.trigger()\n'}
 [18.866627] (alpha_moveit) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
 [18.866726] (alpha_moveit) StderrLine: {'line': b'      |                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
 [18.866821] (alpha_moveit) StderrLine: {'line': b'......\n'}
 [18.866897] (alpha_moveit) StderrLine: {'line': b'   71 |   \x1b[32m\x1b[Kauto\x1b[m\x1b[K const [success, plan] = [&move_group_interface]{\n'}
 [18.866974] (alpha_moveit) StderrLine: {'line': b'      |   \x1b[32m\x1b[K~~~~\x1b[m\x1b[K                          \n'}
-[18.867050] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:75:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[18.867050] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:75:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
 [18.867128] (alpha_moveit) StderrLine: {'line': b'   75 |   }(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
 [18.867204] (alpha_moveit) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
-[18.867278] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:78:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksuccess\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Keaccess\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[18.867278] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:78:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksuccess\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Keaccess\x1b[m\x1b[K\xe2\x80\x99?\n'}
 [18.867356] (alpha_moveit) StderrLine: {'line': b'   78 |   if(\x1b[01;31m\x1b[Ksuccess\x1b[m\x1b[K) {\n'}
 [18.867431] (alpha_moveit) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
 [18.867515] (alpha_moveit) StderrLine: {'line': b'      |      \x1b[32m\x1b[Keaccess\x1b[m\x1b[K\n'}
-[18.867591] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:79:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kplan\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[18.867591] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:79:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kplan\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
 [18.867669] (alpha_moveit) StderrLine: {'line': b'   79 |     draw_trajectory_tool_path(\x1b[01;31m\x1b[Kplan\x1b[m\x1b[K.trajectory);\n'}
 [18.867745] (alpha_moveit) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
 [18.869866] (alpha_moveit) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/alpha_moveit.dir/build.make:76: CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o] Error 1\n'}

@@ -1,8 +1,8 @@
 [0.056s] Invoking command in '/home/gordonc/alpha_test/build/alpha_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_moveit -- -j8 -l8
 [0.236s] [35m[1mConsolidate compiler generated dependencies of target alpha_moveit[0m
 [0.332s] [ 50%] [32mBuilding CXX object CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o[0m
-[15.787s] [01m[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[15.787s] [01m[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:31:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kmove_group_interface[m[K’
+[15.787s] [01m[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[15.787s] [01m[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:31:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kmove_group_interface[m[K’
 [15.787s]    31 |   [01;31m[Kmove_group_interface[m[K.setPoseTarget(0.2, 0.2, 0.2, endEffector);
 [15.787s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
 [15.789s] gmake[2]: *** [CMakeFiles/alpha_moveit.dir/build.make:76: CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o] Error 1

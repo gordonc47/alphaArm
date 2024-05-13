@@ -346,24 +346,24 @@
 [15.372644] (-) TimerEvent: {}
 [15.473084] (-) TimerEvent: {}
 [15.573812] (-) TimerEvent: {}
-[15.616575] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
-[15.616952] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:36:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[15.616575] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.616952] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:36:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
 [15.617191] (alpha_moveit) StderrLine: {'line': b'   36 |   \x1b[01;31m\x1b[Kvector\x1b[m\x1b[K<double> target_pose{\n'}
 [15.617351] (alpha_moveit) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
-[15.617520] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:36:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[15.617520] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:36:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
 [15.617669] (alpha_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
-[15.617772] (alpha_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:2\x1b[m\x1b[K:\n'}
+[15.617772] (alpha_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:2\x1b[m\x1b[K:\n'}
 [15.617868] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:389:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector\x1b[m\x1b[K\xe2\x80\x99\n'}
 [15.617964] (alpha_moveit) StderrLine: {'line': b'  389 |     class \x1b[01;36m\x1b[Kvector\x1b[m\x1b[K : protected _Vector_base<_Tp, _Alloc>\n'}
 [15.618059] (alpha_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
-[15.618151] (alpha_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:2\x1b[m\x1b[K:\n'}
+[15.618151] (alpha_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:2\x1b[m\x1b[K:\n'}
 [15.618287] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/vector:86:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::pmr::vector\x1b[m\x1b[K\xe2\x80\x99\n'}
 [15.618408] (alpha_moveit) StderrLine: {'line': b'   86 |       using \x1b[01;36m\x1b[Kvector\x1b[m\x1b[K = std::vector<_Tp, polymorphic_allocator<_Tp>>;\n'}
 [15.618526] (alpha_moveit) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
-[15.618702] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:36:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.618702] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:36:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
 [15.618827] (alpha_moveit) StderrLine: {'line': b'   36 |   vector<\x1b[01;31m\x1b[Kdouble\x1b[m\x1b[K> target_pose{\n'}
 [15.618923] (alpha_moveit) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
-[15.619031] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:39:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktarget_pose\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[15.619031] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:39:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktarget_pose\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
 [15.619169] (alpha_moveit) StderrLine: {'line': b'   39 |   move_group_interface.setJointValueTarget(\x1b[01;31m\x1b[Ktarget_pose\x1b[m\x1b[K);\n'}
 [15.619265] (alpha_moveit) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
 [15.619481] (alpha_moveit) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/alpha_moveit.dir/build.make:76: CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o] Error 1\n'}

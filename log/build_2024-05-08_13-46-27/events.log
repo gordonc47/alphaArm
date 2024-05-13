@@ -1807,7 +1807,7 @@
 [122.851026] (alpha_moveit) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
 [122.935689] (-) TimerEvent: {}
 [122.950571] (alpha_moveit) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
-[122.950840] (alpha_moveit) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/gordonc/alpha_test/src/alpha/alpha_moveit/include>\n'}
+[122.950840] (alpha_moveit) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/gordonc/alpha_test/src/alpha_moveit/include>\n'}
 [122.950930] (alpha_moveit) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
 [122.952514] (alpha_moveit) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
 [122.954275] (alpha_moveit) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}

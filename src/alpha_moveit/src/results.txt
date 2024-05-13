@@ -1,0 +1,101 @@
+workspace_parameters:
+  header:
+    stamp:
+      sec: 1715049777
+      nanosec: 109070256
+    frame_id: world
+  min_corner:
+    x: -1.0
+    y: -1.0
+    z: -1.0
+  max_corner:
+    x: 1.0
+    y: 1.0
+    z: 1.0
+start_state:
+  joint_state:
+    header:
+      stamp:
+        sec: 0
+        nanosec: 0
+      frame_id: world
+    name:
+    - axis_e
+    - axis_d
+    - axis_c
+    - axis_b
+    - axis_a
+    - standard_jaws_rs1_130_joint
+    - standard_jaws_rs1_139_joint
+    position:
+    - 0.0
+    - 1.5746
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    velocity: []
+    effort: []
+  multi_dof_joint_state:
+    header:
+      stamp:
+        sec: 0
+        nanosec: 0
+      frame_id: world
+    joint_names: []
+    transforms: []
+    twist: []
+    wrench: []
+  attached_collision_objects: []
+  is_diff: false
+goal_constraints:
+- name: ''
+  joint_constraints:
+  - joint_name: axis_e
+    position: 1.2587587659945711
+    tolerance_above: 0.0001
+    tolerance_below: 0.0001
+    weight: 1.0
+  - joint_name: axis_d
+    position: 3.462522616926581
+    tolerance_above: 0.0001
+    tolerance_below: 0.0001
+    weight: 1.0
+  - joint_name: axis_c
+    position: 1.2580558378901334
+    tolerance_above: 0.0001
+    tolerance_below: 0.0001
+    weight: 1.0
+  - joint_name: axis_b
+    position: 3.031735527450219
+    tolerance_above: 0.0001
+    tolerance_below: 0.0001
+    weight: 1.0
+  - joint_name: axis_a
+    position: 0.012482969553675501
+    tolerance_above: 0.0001
+    tolerance_below: 0.0001
+    weight: 1.0
+  position_constraints: []
+  orientation_constraints: []
+  visibility_constraints: []
+path_constraints:
+  name: ''
+  joint_constraints: []
+  position_constraints: []
+  orientation_constraints: []
+  visibility_constraints: []
+trajectory_constraints:
+  constraints: []
+reference_trajectories: []
+pipeline_id: ompl
+planner_id: ''
+group_name: alpha
+num_planning_attempts: 10
+allowed_planning_time: 5.0
+max_velocity_scaling_factor: 0.1
+max_acceleration_scaling_factor: 0.1
+cartesian_speed_end_effector_link: ''
+max_cartesian_speed: 0.0
+---

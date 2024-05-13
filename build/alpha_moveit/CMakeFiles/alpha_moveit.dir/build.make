@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gordonc/alpha_test/src/alpha/alpha_moveit
+CMAKE_SOURCE_DIR = /home/gordonc/alpha_test/src/alpha_moveit
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/gordonc/alpha_test/build/alpha_moveit
@@ -70,18 +70,18 @@ include CMakeFiles/alpha_moveit.dir/progress.make
 include CMakeFiles/alpha_moveit.dir/flags.make
 
 CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o: CMakeFiles/alpha_moveit.dir/flags.make
-CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o: /home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp
+CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o: /home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp
 CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o: CMakeFiles/alpha_moveit.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gordonc/alpha_test/build/alpha_moveit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o -MF CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o.d -o CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o -c /home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o -MF CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o.d -o CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o -c /home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp
 
 CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.i"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp > CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.i
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp > CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.i
 
 CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.s"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp -o CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.s
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp -o CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.s
 
 # Object files for target alpha_moveit
 alpha_moveit_OBJECTS = \
@@ -428,6 +428,6 @@ CMakeFiles/alpha_moveit.dir/clean:
 .PHONY : CMakeFiles/alpha_moveit.dir/clean
 
 CMakeFiles/alpha_moveit.dir/depend:
-	cd /home/gordonc/alpha_test/build/alpha_moveit && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gordonc/alpha_test/src/alpha/alpha_moveit /home/gordonc/alpha_test/src/alpha/alpha_moveit /home/gordonc/alpha_test/build/alpha_moveit /home/gordonc/alpha_test/build/alpha_moveit /home/gordonc/alpha_test/build/alpha_moveit/CMakeFiles/alpha_moveit.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gordonc/alpha_test/build/alpha_moveit && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gordonc/alpha_test/src/alpha_moveit /home/gordonc/alpha_test/src/alpha_moveit /home/gordonc/alpha_test/build/alpha_moveit /home/gordonc/alpha_test/build/alpha_moveit /home/gordonc/alpha_test/build/alpha_moveit/CMakeFiles/alpha_moveit.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/alpha_moveit.dir/depend
 

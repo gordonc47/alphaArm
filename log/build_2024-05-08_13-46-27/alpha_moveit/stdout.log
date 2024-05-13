@@ -53,7 +53,7 @@
 -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
 -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
 -- Added test 'cppcheck' to perform static code analysis on C / C++ code
--- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/gordonc/alpha_test/src/alpha/alpha_moveit/include>
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/gordonc/alpha_test/src/alpha_moveit/include>
 -- Configured cppcheck exclude dirs and/or files: 
 -- Added test 'lint_cmake' to check CMake code style
 -- Added test 'uncrustify' to check C / C++ code style

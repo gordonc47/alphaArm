@@ -347,11 +347,11 @@
 [15.479818] (-) TimerEvent: {}
 [15.580265] (-) TimerEvent: {}
 [15.680871] (-) TimerEvent: {}
-[15.698300] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
-[15.698743] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:30:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::setPoseTarget(double, double, double, const char [9])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.698300] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.698743] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:30:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::setPoseTarget(double, double, double, const char [9])\x1b[m\x1b[K\xe2\x80\x99\n'}
 [15.698986] (alpha_moveit) StderrLine: {'line': b'   30 |   \x1b[01;31m\x1b[Kmove_group_interface.setPoseTarget(0.2, 0.2, 0.2, "push_rod")\x1b[m\x1b[K;\n'}
 [15.699228] (alpha_moveit) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
-[15.699421] (alpha_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[15.699421] (alpha_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:4\x1b[m\x1b[K:\n'}
 [15.699589] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:561:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool moveit::planning_interface::MoveGroupInterface::setPoseTarget(const Isometry3d&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
 [15.699688] (alpha_moveit) StderrLine: {'line': b'  561 |   bool \x1b[01;36m\x1b[KsetPoseTarget\x1b[m\x1b[K(const Eigen::Isometry3d& end_effector_pose, const std::string& end_effector_link = "");\n'}
 [15.699841] (alpha_moveit) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}

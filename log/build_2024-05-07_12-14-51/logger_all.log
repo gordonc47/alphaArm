@@ -148,7 +148,7 @@
 [0.304s] Level 5:colcon.colcon_core.verb:set package 'alpha_moveit' build argument 'ament_cmake_args' from command line to 'None'
 [0.304s] Level 5:colcon.colcon_core.verb:set package 'alpha_moveit' build argument 'catkin_cmake_args' from command line to 'None'
 [0.304s] Level 5:colcon.colcon_core.verb:set package 'alpha_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
-[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'alpha_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gordonc/alpha_test/build/alpha_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gordonc/alpha_test/install/alpha_moveit', 'merge_install': False, 'path': '/home/gordonc/alpha_test/src/alpha/alpha_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'alpha_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gordonc/alpha_test/build/alpha_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gordonc/alpha_test/install/alpha_moveit', 'merge_install': False, 'path': '/home/gordonc/alpha_test/src/alpha_moveit', 'symlink_install': False, 'test_result_base': None}
 [0.304s] Level 5:colcon.colcon_core.verb:set package 'alpha_hardware' build argument 'cmake_args' from command line to 'None'
 [0.304s] Level 5:colcon.colcon_core.verb:set package 'alpha_hardware' build argument 'cmake_target' from command line to 'None'
 [0.304s] Level 5:colcon.colcon_core.verb:set package 'alpha_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
@@ -180,8 +180,8 @@
 [0.322s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gordonc/alpha_test/src/alpha/alpha_description'
 [0.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [0.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[0.332s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gordonc/alpha_test/src/alpha/alpha_moveit' with build type 'ament_cmake'
-[0.333s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gordonc/alpha_test/src/alpha/alpha_moveit'
+[0.332s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gordonc/alpha_test/src/alpha_moveit' with build type 'ament_cmake'
+[0.333s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gordonc/alpha_test/src/alpha_moveit'
 [0.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [0.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
 [0.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gordonc/alpha_test/build/alpha_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_driver -- -j8 -l8

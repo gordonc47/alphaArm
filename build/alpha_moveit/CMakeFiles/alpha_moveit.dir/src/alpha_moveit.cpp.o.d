@@ -1,5 +1,5 @@
 CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o: \
- /home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp \
+ /home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

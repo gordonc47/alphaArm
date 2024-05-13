@@ -1,11 +1,11 @@
 [0.050s] Invoking command in '/home/gordonc/alpha_test/build/alpha_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_moveit -- -j8 -l8
 [0.195s] [35m[1mConsolidate compiler generated dependencies of target alpha_moveit[0m
 [0.303s] [ 50%] [32mBuilding CXX object CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o[0m
-[15.790s] [01m[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[15.790s] [01m[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:30:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::setPoseTarget(double, double, double)[m[K’
+[15.790s] [01m[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[15.790s] [01m[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:30:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::setPoseTarget(double, double, double)[m[K’
 [15.791s]    30 |   [01;31m[Kmove_group_interface.setPoseTarget(0.2, 0.2, 0.2)[m[K;
 [15.791s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
-[15.791s] In file included from [01m[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:4[m[K:
+[15.791s] In file included from [01m[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:4[m[K:
 [15.791s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:561:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setPoseTarget(const Isometry3d&, const string&)[m[K’
 [15.791s]   561 |   bool [01;36m[KsetPoseTarget[m[K(const Eigen::Isometry3d& end_effector_pose, const std::string& end_effector_link = "");
 [15.791s]       |        [01;36m[K^~~~~~~~~~~~~[m[K

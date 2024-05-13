@@ -1,0 +1,45 @@
+[0.045s] Invoking command in '/home/gordonc/alpha_test/build/alpha_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_driver -- -j8 -l8
+[0.191s] [ 19%] Built target gtest
+[0.191s] [ 19%] Built target gtest_main
+[0.222s] [ 28%] Built target gmock_main
+[0.229s] [ 42%] Built target gmock
+[0.233s] [ 71%] Built target alpha_driver
+[0.316s] [ 90%] Built target test_cobs
+[0.316s] [ 90%] Built target test_packet
+[0.317s] [100%] Built target test_crc
+[0.367s] Invoked command in '/home/gordonc/alpha_test/build/alpha_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_driver -- -j8 -l8
+[0.515s] Invoking command in '/home/gordonc/alpha_test/build/alpha_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/alpha_driver
+[0.532s] -- Install configuration: ""
+[0.533s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include
+[0.533s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver
+[0.533s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/packet.hpp
+[0.534s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/mode.hpp
+[0.534s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/crc.hpp
+[0.534s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/cobs.hpp
+[0.535s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/device_id.hpp
+[0.535s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/serial_client.hpp
+[0.535s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/packet_id.hpp
+[0.536s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/include/alpha_driver/driver.hpp
+[0.536s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/lib/libalpha_driver.so
+[0.536s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/library_path.sh
+[0.536s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/library_path.dsv
+[0.537s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/ament_index/resource_index/package_run_dependencies/alpha_driver
+[0.537s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/ament_index/resource_index/parent_prefix_path/alpha_driver
+[0.537s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/ament_prefix_path.sh
+[0.538s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/ament_prefix_path.dsv
+[0.538s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/path.sh
+[0.538s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/environment/path.dsv
+[0.538s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/local_setup.bash
+[0.539s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/local_setup.sh
+[0.539s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/local_setup.zsh
+[0.539s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/local_setup.dsv
+[0.539s] -- Installing: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/package.dsv
+[0.539s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/ament_index/resource_index/packages/alpha_driver
+[0.540s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/alpha_driverExport.cmake
+[0.540s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/alpha_driverExport-noconfig.cmake
+[0.540s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/ament_cmake_export_targets-extras.cmake
+[0.540s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.540s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/alpha_driverConfig.cmake
+[0.541s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/cmake/alpha_driverConfig-version.cmake
+[0.542s] -- Up-to-date: /home/gordonc/alpha_test/install/alpha_driver/share/alpha_driver/package.xml
+[0.544s] Invoked command in '/home/gordonc/alpha_test/build/alpha_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --install /home/gordonc/alpha_test/build/alpha_driver

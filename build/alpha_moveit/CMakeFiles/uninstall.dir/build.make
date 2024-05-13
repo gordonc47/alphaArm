@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gordonc/alpha_test/src/alpha/alpha_moveit
+CMAKE_SOURCE_DIR = /home/gordonc/alpha_test/src/alpha_moveit
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/gordonc/alpha_test/build/alpha_moveit
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/gordonc/alpha_test/build/alpha_moveit && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gordonc/alpha_test/src/alpha/alpha_moveit /home/gordonc/alpha_test/src/alpha/alpha_moveit /home/gordonc/alpha_test/build/alpha_moveit /home/gordonc/alpha_test/build/alpha_moveit /home/gordonc/alpha_test/build/alpha_moveit/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gordonc/alpha_test/build/alpha_moveit && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gordonc/alpha_test/src/alpha_moveit /home/gordonc/alpha_test/src/alpha_moveit /home/gordonc/alpha_test/build/alpha_moveit /home/gordonc/alpha_test/build/alpha_moveit /home/gordonc/alpha_test/build/alpha_moveit/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

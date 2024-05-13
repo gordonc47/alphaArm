@@ -1,8 +1,8 @@
-[01m[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:31:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::setPoseTarget(double, double, double, std::string&)[m[K’
+[01m[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:31:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::setPoseTarget(double, double, double, std::string&)[m[K’
    31 |   [01;31m[Kmove_group_interface.setPoseTarget(0.2, 0.2, 0.2, endEffector)[m[K;
       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:4[m[K:
+In file included from [01m[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:4[m[K:
 [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:561:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setPoseTarget(const Isometry3d&, const string&)[m[K’
   561 |   bool [01;36m[KsetPoseTarget[m[K(const Eigen::Isometry3d& end_effector_pose, const std::string& end_effector_link = "");
       |        [01;36m[K^~~~~~~~~~~~~[m[K

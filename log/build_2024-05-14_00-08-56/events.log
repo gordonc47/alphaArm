@@ -609,11 +609,11 @@
 [28.452026] (-) TimerEvent: {}
 [28.552430] (-) TimerEvent: {}
 [28.652953] (-) TimerEvent: {}
-[28.732995] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
-[28.733488] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:65:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::setPositionTarget(Eigen::Transform<double, 3, 1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.732995] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[28.733488] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:65:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::setPositionTarget(Eigen::Transform<double, 3, 1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
 [28.733759] (alpha_moveit) StderrLine: {'line': b'   65 |   \x1b[01;31m\x1b[Kmove_group_interface.setPositionTarget(testmsg)\x1b[m\x1b[K;\n'}
 [28.733907] (alpha_moveit) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
-[28.734039] (alpha_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha/alpha_moveit/src/alpha_moveit.cpp:5\x1b[m\x1b[K:\n'}
+[28.734039] (alpha_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gordonc/alpha_test/src/alpha_moveit/src/alpha_moveit.cpp:5\x1b[m\x1b[K:\n'}
 [28.734168] (alpha_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:533:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool moveit::planning_interface::MoveGroupInterface::setPositionTarget(double, double, double, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
 [28.734337] (alpha_moveit) StderrLine: {'line': b'  533 |   bool \x1b[01;36m\x1b[KsetPositionTarget\x1b[m\x1b[K(double x, double y, double z, const std::string& end_effector_link = "");\n'}
 [28.734500] (alpha_moveit) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}

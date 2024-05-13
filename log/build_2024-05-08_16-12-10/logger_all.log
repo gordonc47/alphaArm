@@ -228,7 +228,7 @@
 [0.552s] Level 5:colcon.colcon_core.verb:set package 'alpha_moveit' build argument 'ament_cmake_args' from command line to 'None'
 [0.552s] Level 5:colcon.colcon_core.verb:set package 'alpha_moveit' build argument 'catkin_cmake_args' from command line to 'None'
 [0.552s] Level 5:colcon.colcon_core.verb:set package 'alpha_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
-[0.552s] DEBUG:colcon.colcon_core.verb:Building package 'alpha_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gordonc/alpha_test/build/alpha_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gordonc/alpha_test/install/alpha_moveit', 'merge_install': False, 'path': '/home/gordonc/alpha_test/src/alpha/alpha_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.552s] DEBUG:colcon.colcon_core.verb:Building package 'alpha_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gordonc/alpha_test/build/alpha_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gordonc/alpha_test/install/alpha_moveit', 'merge_install': False, 'path': '/home/gordonc/alpha_test/src/alpha_moveit', 'symlink_install': False, 'test_result_base': None}
 [0.553s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
 [0.555s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
 [0.555s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gordonc/alpha_test/src/alpha/alpha_driver' with build type 'ament_cmake'
@@ -529,8 +529,8 @@
 [3.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/moveit_visual_tools/share/moveit_visual_tools/package.bash'
 [3.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/gordonc/alpha_test/install/moveit_visual_tools/share/moveit_visual_tools/package.zsh'
 [3.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gordonc/alpha_test/install/moveit_visual_tools/share/colcon-core/packages/moveit_visual_tools)
-[3.323s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gordonc/alpha_test/src/alpha/alpha_moveit' with build type 'ament_cmake'
-[3.325s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gordonc/alpha_test/src/alpha/alpha_moveit'
+[3.323s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gordonc/alpha_test/src/alpha_moveit' with build type 'ament_cmake'
+[3.325s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gordonc/alpha_test/src/alpha_moveit'
 [3.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [3.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
 [3.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gordonc/alpha_test/build/alpha_mtc_tutorial' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake /home/gordonc/alpha_test/src/alpha/alpha_mtc_tutorial -DCMAKE_INSTALL_PREFIX=/home/gordonc/alpha_test/install/alpha_mtc_tutorial

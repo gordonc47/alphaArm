@@ -1,4 +1,4 @@
-[0.035s] Invoking command in '/home/gordonc/alpha_test/build/alpha_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake /home/gordonc/alpha_test/src/alpha/alpha_moveit -DCMAKE_INSTALL_PREFIX=/home/gordonc/alpha_test/install/alpha_moveit
+[0.035s] Invoking command in '/home/gordonc/alpha_test/build/alpha_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake /home/gordonc/alpha_test/src/alpha_moveit -DCMAKE_INSTALL_PREFIX=/home/gordonc/alpha_test/install/alpha_moveit
 [0.224s] -- The C compiler identification is GNU 11.4.0
 [0.382s] -- The CXX compiler identification is GNU 11.4.0
 [0.395s] -- Detecting C compiler ABI info
@@ -38,7 +38,7 @@
 [6.751s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
 [7.370s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
 [7.561s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
-[7.561s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/gordonc/alpha_test/src/alpha/alpha_moveit/include>
+[7.561s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/gordonc/alpha_test/src/alpha_moveit/include>
 [7.561s] -- Configured cppcheck exclude dirs and/or files: 
 [7.562s] -- Added test 'lint_cmake' to check CMake code style
 [7.565s] -- Added test 'uncrustify' to check C / C++ code style
@@ -47,7 +47,7 @@
 [7.569s] -- Configuring done
 [7.608s] -- Generating done
 [7.611s] -- Build files have been written to: /home/gordonc/alpha_test/build/alpha_moveit
-[7.627s] Invoked command in '/home/gordonc/alpha_test/build/alpha_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake /home/gordonc/alpha_test/src/alpha/alpha_moveit -DCMAKE_INSTALL_PREFIX=/home/gordonc/alpha_test/install/alpha_moveit
+[7.627s] Invoked command in '/home/gordonc/alpha_test/build/alpha_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake /home/gordonc/alpha_test/src/alpha_moveit -DCMAKE_INSTALL_PREFIX=/home/gordonc/alpha_test/install/alpha_moveit
 [7.629s] Invoking command in '/home/gordonc/alpha_test/build/alpha_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gordonc/colcon_ws/install/blue_manager:/home/gordonc/colcon_ws/install/blue_localization:/home/gordonc/colcon_ws/install/blue_joy:/opt/ros/humble /usr/bin/cmake --build /home/gordonc/alpha_test/build/alpha_moveit -- -j8 -l8
 [7.711s] [ 50%] [32mBuilding CXX object CMakeFiles/alpha_moveit.dir/src/alpha_moveit.cpp.o[0m
 [18.296s] [100%] [32m[1mLinking CXX executable alpha_moveit[0m
